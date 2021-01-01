@@ -1,0 +1,72 @@
+import React from 'react';
+import {Nav,Navbar} from 'react-bootstrap';
+import './about.css';
+import {LinkContainer} from 'react-router-bootstrap';
+import Logo from '../assets/Logo.png';
+
+
+
+export const NavigationBar = ( ) =>(
+    <div className='font ' >
+       <Navbar expand= 'lg'>
+       <LinkContainer to ="/">
+          <Navbar.Brand>
+           <img src={Logo} height='100'width='100' alt='logo'/>
+               <div style= {{color:'#284894'}}>
+                   <b>ADVANCE SEALS TECHNOLOGY</b>
+                </div>
+          </Navbar.Brand>
+          </LinkContainer>
+          <Navbar.Toggle aria-controls='basic-navbar-nav '/>
+          <Navbar.Collapse id='basic-navbar-nav'>
+           <Nav className='ml-auto basic-navbar-nav text-primary'>   
+             <Nav.Item>
+             <LinkContainer to ="/">
+                <Nav.Link >
+                <div className="font"> Home </div>
+               </Nav.Link>
+             </LinkContainer>
+             </Nav.Item>
+
+             <Nav.Item>
+             <LinkContainer to ="/about"><Nav.Link>
+             <div className="font">  About</div>
+              </Nav.Link>
+             </LinkContainer>
+             </Nav.Item>
+
+             <Nav.Item>
+             <LinkContainer to='/blog'>
+             <Nav.Link>
+             <div className="font">
+             Blog 
+             </div>
+            </Nav.Link>
+             </LinkContainer>
+              </Nav.Item>
+
+             <Nav.Item>
+             <LinkContainer  to='/products'>
+             <Nav.Link>
+             <div className="font">
+             Products
+             </div>
+             </Nav.Link>
+             </LinkContainer>
+            </Nav.Item>
+
+             <Nav.Item>
+             <LinkContainer to='/contact'>
+             <Nav.Link>
+             <div className="font">
+             Contact 
+             </div>
+             </Nav.Link>
+             </LinkContainer>
+            </Nav.Item>
+
+          </Nav>
+        </Navbar.Collapse>
+       </Navbar>
+    </div>
+)
