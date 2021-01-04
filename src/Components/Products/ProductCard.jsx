@@ -18,8 +18,8 @@ export class ProductCard extends Component{
   render(){
      const{img1,Productname,Content}= this.props;
     return(<div>
-        <Card style={{ width: '15rem' }}>
-        <Card.Img variant="top" src={img1} height='200rem' width='20rem' />
+        <Card style={{ width:'10rem' }}>
+        <Card.Img variant="top" src={img1} height='160rem' width='140rem' />
          <Card.Body>
        <Card.Title style={{textAlign:'center',color:'#284894'}}>{Productname}</Card.Title>
        {this.state.show?
@@ -51,8 +51,8 @@ export class OilsealCard extends Component{
 render(){
    const{img3,Productname,Content}= this.props;
     return(<div>
-        <Card style={{ width: '15rem' }}>
-        <Card.Img variant="top" src={img3} height='200rem' width='20rem' />
+        <Card style={{ width: '10rem' }}>
+        <Card.Img variant="top" src={img3} height='160rem' width='140rem' />
          <Card.Body>
        <Card.Title style={{textAlign:'center',color:'#284894'}}>{Productname}</Card.Title>
        {this.state.show?
@@ -84,8 +84,8 @@ export class ChemicalCard extends Component{
 render(){
    const{img2,Productname,Content}= this.props;
     return(<div>
-        <Card style={{ width: '15rem' }}>
-        <Card.Img variant="top" src={img2} height='200rem' width='20rem' />
+        <Card style={{ width: '10rem' }}>
+        <Card.Img variant="top" src={img2} height='160rem' width='140rem' />
          <Card.Body>
        <Card.Title style={{textAlign:'center',color:'#284894'}}>{Productname}</Card.Title>
        {this.state.show?

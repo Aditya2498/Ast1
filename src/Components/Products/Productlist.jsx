@@ -1,9 +1,11 @@
 import React from 'react';
 import {ProductCard,OilsealCard,ChemicalCard} from './ProductCard';
+import './Product.css';
 import {Row,Col} from 'react-bootstrap';
 
 export const Productlist = ({ProductData,OilsealData,ChemicalData}) =>(
     <div>
+    <h1 className='title-banner'>Water Seals</h1>
     <Row className='ml-auto '>
     { ProductData.map((ProductData,i)=>{
             return(
@@ -15,11 +17,13 @@ export const Productlist = ({ProductData,OilsealData,ChemicalData}) =>(
                  Productname = {ProductData.Productname}
                  Content = {ProductData.Content}
                 />
+                <p> </p>
                  </Col>
                  ) } ) 
                  }
                  </Row>
-                 <h1 style={{textAlign:'center',color:'#284894'}}>Chemical Seals</h1>
+                 <h1 className='title-banner'>Chemical Seals</h1>
+                 
                  <Row className='ml-auto'> { ChemicalData.map((ChemicalData,i)=>{
                      return(
                          <Col key={ChemicalData.id} className='col-md-4'>
@@ -38,7 +42,7 @@ export const Productlist = ({ProductData,OilsealData,ChemicalData}) =>(
 
 
 
- <h1 style={{textAlign:'center',color:'#284894'}}>Oil Seals</h1>
+ <h1 className='title-banner'>Oil Seals</h1>
                  <Row className='ml-auto'>
                    { OilsealData.map((OilsealData,i)=>{
          return(

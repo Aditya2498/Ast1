@@ -29,7 +29,7 @@ export const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
-        <h1>AST<p>estd. 2005</p></h1>
+        <h1 className="jumbo-text">A one stop shop solution, for all your seal requirements.</h1>
       </Container>
     </Jumbo>
   </Styles>

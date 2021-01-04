@@ -10,7 +10,7 @@ export const ProductData = [
         },
 { id:'2',
   img1:'/ProductList/2.jpg',
-  Productname : 'mg 1(ast-m-202) ',
+  Productname : 'mg1(ast-m-202) ',
   Content:`Application : sewage service, water, light chemicals. 
       Features: Internal mounting, Single acting,
       Independent of direction of rotation.
@@ -21,7 +21,7 @@ export const ProductData = [
    {
     id:'3',
     img1:'/ProductList/3.jpg',
-    Productname : 'mg 13(ast-me-202) ',
+    Productname : 'mg13(ast-me-202) ',
     Content:`sewage service, water, light chemicals. 
     Features: Internal mounting, Single acting,
                       Independent of direction of rotation.

@@ -8,7 +8,7 @@ export const Data = [
     },
     {   id:'2',
         title:'Chemical Seals',
-        img:'/Data/Chemical.jpg',
+        img:'/Data/Chemical.png',
         text:'',
         link:''
     },

@@ -2,7 +2,8 @@ import React from 'react';
 import {Nav,Navbar} from 'react-bootstrap';
 import './about.css';
 import {LinkContainer} from 'react-router-bootstrap';
-import Logo from '../assets/Logo.png';
+import Logo from '../assets/Logo.jpg';
+import Logotext from '../assets/Logotext.png';
 
 
 
@@ -11,10 +12,9 @@ export const NavigationBar = ( ) =>(
        <Navbar expand= 'lg'>
        <LinkContainer to ="/">
           <Navbar.Brand>
-           <img src={Logo} height='100'width='100' alt='logo'/>
-               <div style= {{color:'#284894'}}>
-                   <b>ADVANCE SEALS TECHNOLOGY</b>
-                </div>
+           <img src={Logo} height='80'width='80' alt='logo'/>
+            <> <img src={Logotext} height='60' alt='logotext'/></>
+            
           </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav '/>
@@ -23,7 +23,7 @@ export const NavigationBar = ( ) =>(
              <Nav.Item>
              <LinkContainer to ="/">
                 <Nav.Link >
-                <div className="font"> Home </div>
+                <div className="nav-text"> Home </div>
                </Nav.Link>
              </LinkContainer>
              </Nav.Item>
