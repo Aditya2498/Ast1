@@ -1,64 +1,62 @@
 import React from 'react';
-import {ProductCard,OilsealCard,ChemicalCard} from './ProductCard';
+import {WaterSealCard,OilSealCard,ChemicalSealCard} from './ProductCard';
 import './Product.css';
 import {Row,Col} from 'react-bootstrap';
 
-export const Productlist = ({ProductData,OilsealData,ChemicalData}) =>(
+export const Productlist = ({WaterSealData,OilSealData,ChemicalSealData}) =>(
     <div>
     <h1 className='title-banner'>Water Seals</h1>
     <Row className='ml-auto '>
-    { ProductData.map((ProductData,i)=>{
+    { WaterSealData.map((WaterSealData,i)=>{
             return(
-                <Col key={ProductData.id} className='col-md-4'>
-                <ProductCard 
+                <Col key={WaterSealData.id} className='col-md-4'>
+                <WaterSealCard 
                  key={i}
-                 id = {ProductData.id}
-                 img1 = {ProductData.img1}
-                 Productname = {ProductData.Productname}
-                 Content = {ProductData.Content}
+                 id = {WaterSealData.id}
+                 img1 = {WaterSealData.img1}
+                 Productname = {WaterSealData.Productname}
+                 Content = {WaterSealData.Content}
                 />
-                <p> </p>
+                <br/>
                  </Col>
                  ) } ) 
                  }
                  </Row>
                  <h1 className='title-banner'>Chemical Seals</h1>
                  
-                 <Row className='ml-auto'> { ChemicalData.map((ChemicalData,i)=>{
+                 <Row className='ml-auto'> { ChemicalSealData.map((ChemicalSealData,i)=>{
                      return(
-                         <Col key={ChemicalData.id} className='col-md-4'>
-                        <ChemicalCard
+                         <Col key={ChemicalSealData.id} className='col-md-4'>
+                        <ChemicalSealCard
                            key={i}
-                           id = {ChemicalData.id}
-                          img2 = {ChemicalData.img2}
-                          Productname = {ChemicalData.Productname}
-                          Content = {ChemicalData.Content}
+                           id = {ChemicalSealData.id}
+                          img2 = {ChemicalSealData.img2}
+                          Productname = {ChemicalSealData.Productname}
+                          Content = {ChemicalSealData.Content}
                          />
+                         <br/>
                          </Col>
                          ) } ) 
                          }
-                    </Row>
-
-
-
-
- <h1 className='title-banner'>Oil Seals</h1>
+                   
+            </Row>
+    <h1 className='title-banner'>Oil Seals</h1>
                  <Row className='ml-auto'>
-                   { OilsealData.map((OilsealData,i)=>{
+                { OilSealData.map((OilSealData,i)=>{
          return(
-             <Col key={OilsealData.id} className='col-md-4'>
-            <OilsealCard
+             <Col key={OilSealData.id} className='col-md-4'>
+            <OilSealCard
                key={i}
-               id = {OilsealData.id}
-              img3 = {OilsealData.img3}
-              Productname = {OilsealData.Productname}
-              Content = {OilsealData.Content}
+               id = {OilSealData.id}
+              img3 = {OilSealData.img3}
+              Productname = {OilSealData.Productname}
+              Content = {OilSealData.Content}
              />
+             <br/>
              </Col>
              ) } ) 
              }
         </Row>
-        
-
-    </div>
+    
+ </div>
 )

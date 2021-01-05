@@ -19,7 +19,24 @@ export const home = () =>(
      Chemical  &  Petrochemical, Refinery,  Pulp  &  Paper ,  Compressor ,  Hot Water ,  Marine ,  Sugar , 
      Pharmaceutical,  Textiles  Compressor , Quarrying  &  Coal  Mining  etc.  as  per  Client  Drawings 
      and requirement.
-     </div>    
+     </div> 
+     <h1>Why Us ?</h1>
+     <div>
+      We have occupied a commendable position in the industry because of our excellent grade products.
+       Moreover, we also have a good will across the globe owing to our transparent and ethical business dealings. The products we offer are also in tandem with industry norms and standards. A number of other factors can be sited for which we have become the preferred choice of our clients. These factors are mentioned below :
+      <br/>
+      .Customization facility
+      <br/>
+      .Cost effectiveness 
+      <br/>
+      .Mechanical seals available in a variety of sizes ranging from 8 mm to 100 mm 
+      <br/>
+      .Precision seal offered having endurance to temperatures as high as 200°C
+      <br/>
+      .Timely execution of orders
+      <br/>
+      .Excellent after sales services
+    </div>   
      <Cardlist Data={Data}  />
      </div>
 

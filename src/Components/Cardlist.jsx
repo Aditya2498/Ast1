@@ -13,7 +13,6 @@ export const Cardlist = ({Data})=>(
                      title = {Data.title}
                      img = {Data.img}
                      text = {Data.text}/>
-                     <p></p>
                      </Col>
                      ) } ) 
                      }

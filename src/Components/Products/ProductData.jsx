@@ -1,4 +1,4 @@
-export const ProductData = [
+export const WaterSealData = [
 { id:'1',
   img1:'/ProductList/1.jpg',
   Productname : 'Open type (AST-O-201)',
@@ -106,16 +106,16 @@ Available Size: 60 mm
 ` }
 ];
 
-export const ChemicalData = [
+export const ChemicalSealData = [
   {
-    id:'1',
-    img2:'/chemical/1.jpg',
+   id:'1',
+   img2:'/chemical/1.jpg',
    Productname : ' Multi Spring Seal , (AST-MS-303)',
-  Content: `Application : corrosive/viscous fluids
-  Features: Single, Double or Tandem arrangements in Balanced or Unbalanced.
-  Operating Condition : temperature  -40oC to 200oC
-  Pressure: Vacuum upto 10kg/cm* for unbalanced and upto 20kg/cm* for Balanced
-  Available Size: as per required`,
+   Content: `Application : corrosive/viscous fluids
+   Features: Single, Double or Tandem arrangements in Balanced or Unbalanced.
+   Operating Condition : temperature  -40oC to 200oC
+   Pressure: Vacuum upto 10kg/cm* for unbalanced and upto 20kg/cm* for Balanced
+   Available Size: as per required`,
    },
    {
     id:'2',
@@ -204,7 +204,7 @@ export const ChemicalData = [
     Available Size: as per required`
     },
 ];
-export const OilsealData = [
+export const OilSealData = [
   {
   id:'1',
   img3:'/oil/1.jpg',
