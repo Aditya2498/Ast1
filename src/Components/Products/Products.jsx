@@ -1,10 +1,10 @@
 import React from 'react';
-import { Productlist } from './Productlist';
+import {ProductShow} from './ProductShow';
 import {OilSealData, WaterSealData,ChemicalSealData} from './ProductData.jsx';
 
 
 export const Products =()=>(
      <div>
-     <Productlist WaterSealData={WaterSealData} ChemicalSealData={ChemicalSealData} OilSealData={OilSealData}  />
+     <ProductShow WaterSealData={WaterSealData} ChemicalSealData={ChemicalSealData} OilSealData={OilSealData} />
      </div>
     )
