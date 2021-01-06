@@ -7,13 +7,14 @@ export class Show extends Component{
     this.state={
         show:false
     }
-   handleClickShow=()=>{
-        this.setState({show:true})
-      }
-      handleClickHide=()=>{
-          this.setState({show:false})
-      }  
+     
 }
+handleClickShow=()=>{
+    console.log('jaishriram');
+      }
+handleClickHide=()=>{
+          this.setState({show:false})
+      }
  
  render(){
      return(
