@@ -12,8 +12,8 @@ export const WaterSealCard = ({img1,Productname,Content,handleClickHide,handleCl
        <Card.Text>{Content}
        </Card.Text>:null}
        { !show ?
-       <Button onClick={()=>handleClickShow}>Know More!</Button>:
-       <Button onClick={()=>handleClickHide}>Hide.</Button>}
+       <Button onClick={handleClickShow}>Know More!</Button>:
+       <Button onClick={handleClickHide}>Hide.</Button>}
        </Card.Body>
      </Card>    
      </div>
@@ -29,8 +29,8 @@ export const ChemicalSealCard =({img2,Productname,Content,handleClickHide,handle
     <Card.Text>{Content}
     </Card.Text>:null}
     { !show ?
-    <Button onClick={()=>handleClickShow}>Know More!</Button>:
-    <Button onClick={()=>handleClickHide}>Hide.</Button>}
+    <Button onClick={handleClickShow}>Know More!</Button>:
+    <Button onClick={handleClickHide}>Hide.</Button>}
    </Card.Body>
    </Card>    
    </div>);
@@ -45,8 +45,8 @@ export const OilSealCard=({img3,Productname,Content,handleClickHide,handleClickS
     <Card.Text>{Content}
     </Card.Text>:null}
     { !show ?
-   <Button onClick={()=>handleClickShow}>Know More!</Button>:
-   <Button onClick={()=>handleClickHide}>Hide.</Button>}   
+   <Button onClick={handleClickShow}>Know More!</Button>:
+   <Button onClick={handleClickHide}>Hide.</Button>}   
    </Card.Body>
    </Card>    
 </div>);

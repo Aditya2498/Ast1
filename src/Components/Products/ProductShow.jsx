@@ -18,14 +18,14 @@ export class Show extends Component{
  render(){
      return(
          <div>
-           <WaterSealCard show={this.state.show} handleClickShow={this.handleClickShow()} 
-                          handleClickHide={this.handleClickHide()} />
+           <WaterSealCard show={this.state.show} handleClickShow={this.handleClickShow} 
+                          handleClickHide={this.handleClickHide} />
           <ChemicalSealCard show={this.state.show}
-                            handleClickShow={this.handleClickShow()} 
-                            handleClickHide={this.handleClickHide()} />
+                            handleClickShow={this.handleClickShow} 
+                            handleClickHide={this.handleClickHide} />
           <OilSealCard show={this.state.show} 
-                       handleClickShow={this.handleClickShow()} 
-                       handleClickHide={this.handleClickHide()}/>
+                       handleClickShow={this.handleClickShow} 
+                       handleClickHide={this.handleClickHide}/>
          </div>
           );
       }
