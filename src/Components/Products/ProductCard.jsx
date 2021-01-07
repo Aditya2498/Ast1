@@ -2,12 +2,9 @@ import  React from "react";
 import {Card,Button} from 'react-bootstrap';
 
 export const WaterSealCard = ({img1,Productname,Content,handleClickHide,handleClickShow,show})=>{
-  const how=()=>{
-    console.log({handleClickShow,show});
-      }
       return(
         <div>
-          <Card style={{ width:'12rem' }}>
+          <Card style={{ width:'14rem',height:'auto' }}>
            <Card.Img variant="top" src={img1} height='180rem' width='140rem' />
            <Card.Body>
            <Card.Title style={{textAlign:'center',color:'#284894'}}>{Productname}</Card.Title>
@@ -15,7 +12,7 @@ export const WaterSealCard = ({img1,Productname,Content,handleClickHide,handleCl
            <Card.Text>{Content}
            </Card.Text>:null}
            { !show ?
-           <Button onClick={how}>Know More!</Button>:
+           <Button onClick={handleClickShow}>Know More!</Button>:
            <Button onClick={handleClickHide}>Hide.</Button>}
            </Card.Body>
          </Card>    

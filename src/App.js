@@ -24,7 +24,7 @@ function App() {
            <Route path='/about'component={about}/>
            <Route path='/blog' component={blog}/>
            <Route path='/contact' component={contact}/>
-           <Route path='/products' component={Products}/>
+           <Route path='/products/' component={Products}/>
            <Route component={nomatch}/>
          </Switch>
          </Layout>

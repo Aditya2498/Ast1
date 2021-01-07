@@ -10,7 +10,7 @@ export const WaterSealData = [
         },
 { id:'2',
   img1:'/ProductList/2.jpg',
-  Productname : 'mg1(ast-m-202) ',
+  Productname : 'mg1 (ast - m- 202) ',
   Content:`Application : sewage service, water, light chemicals. 
       Features: Internal mounting, Single acting,
       Independent of direction of rotation.
