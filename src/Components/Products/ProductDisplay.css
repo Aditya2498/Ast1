@@ -1,0 +1,15 @@
+.center{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(116, 149, 221);
+    flex-wrap: wrap;
+    }
+.box{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    color:black;
+}    

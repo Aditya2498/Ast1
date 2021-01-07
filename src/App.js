@@ -7,6 +7,7 @@ import {contact} from './Components/contact.jsx';
 import {blog} from './Components/blog.jsx';
 import {nomatch} from './Components/nomatch.jsx';
 import {Products}from './Components/Products/Products.jsx';
+import {ProductDisplay} from './Components/Products/ProductDisplay.jsx';
 import {Layout} from './Components/Layout.jsx';
 import {Jumbotron}from './Components/jumbo.jsx'
 import {NavigationBar} from './Components/navbar.jsx';
@@ -24,7 +25,8 @@ function App() {
            <Route path='/about'component={about}/>
            <Route path='/blog' component={blog}/>
            <Route path='/contact' component={contact}/>
-           <Route path='/products/' component={Products}/>
+           <Route path='/products' component={Products}/>
+           <Route path='/productsDisplay'component={ProductDisplay}/>
            <Route component={nomatch}/>
          </Switch>
          </Layout>
