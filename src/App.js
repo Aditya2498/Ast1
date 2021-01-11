@@ -5,6 +5,7 @@ import {home} from './Components/home.jsx';
 import {about} from './Components/about.jsx';
 import {contact} from './Components/contact.jsx';
 import {blog} from './Components/blog.jsx';
+import { Footer} from './Components/Footer.jsx';
 import {nomatch} from './Components/nomatch.jsx';
 import {Products}from './Components/Products/Products.jsx';
 import {ProductDisplay} from './Components/Products/ProductDisplay.jsx';
@@ -31,6 +32,7 @@ function App() {
          </Switch>
          </Layout>
         </Router>
+        <Footer/>
      </React.Fragment>
   );
 }
