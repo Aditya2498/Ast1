@@ -6,7 +6,7 @@ export const WaterSealCard = ({img1,Productname,handleClickShow})=>{
         <div>
           <Card style={{ width:'14rem',height:'auto' }}>
            <Card.Img variant="top" src={img1} height='180rem' width='140rem' />
-           <Card.Body>
+           <Card.Body style={{borderRadius:'0.5rem',boxSizing:'border-box',backgroundColor:'#c0c0c0'}}>
            <Card.Title style={{textAlign:'center',color:'#284894'}}>{Productname}</Card.Title>
            <Button onClick={handleClickShow}>Know More!</Button>
            </Card.Body>
@@ -20,7 +20,7 @@ export const ChemicalSealCard =({img2,Productname,handleClickShow})=>
     (<div>
      <Card style={{ width: '12rem' }}>
     <Card.Img variant="top" src={img2} height='180rem' width='140rem' />
-  <Card.Body>
+  <Card.Body style={{borderRadius:'0.5rem',boxSizing:'border-box',backgroundColor:'#c0c0c0'}}>
     <Card.Title style={{textAlign:'center',color:'#284894'}}>{Productname}</Card.Title>
     <Button onClick={handleClickShow}>Know More!</Button>
    </Card.Body>
@@ -31,7 +31,7 @@ export const OilSealCard=({img3,Productname,Content,handleClickHide,handleClickS
   ( <div>
     <Card style={{ width: '12rem' }}>
     <Card.Img variant="top" src={img3} height='180rem' width='140rem' />
-     <Card.Body>
+     <Card.Body style={{borderRadius:'0.5rem',boxSizing:'border-box',backgroundColor:'#c0c0c0'}}>
     <Card.Title style={{textAlign:'center',color:'#284894'}}>{Productname}</Card.Title>
    <Button onClick={handleClickHide}>Hide.</Button>  
    </Card.Body>

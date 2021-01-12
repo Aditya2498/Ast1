@@ -60,7 +60,7 @@ export const home = () =>(
       .Excellent after sales services
       </i>  
     </div> 
-      <div style = {{marginBottom:'4em'}}>
+      <div style = {{marginBottom:'12em'}}>
       <Cardlist Data={Data}  />
       </div>
   
