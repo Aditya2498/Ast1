@@ -1,10 +1,15 @@
-import React from 'react';
-import {ProductShow} from './ProductShow';
-import {OilSealData, WaterSealData,ChemicalSealData} from './ProductData.jsx';
+import React from "react";
+import { ProductShow } from "./ProductShow";
+import {
+  OilSealData,
+  WaterSealData,
+  ChemicalSealData
+} from "./ProductData.jsx";
+import { Data } from "../Data";
+import { Cardlist } from "../Cardlist";
+import { Card, Button, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-
-export const Products =()=>(
-     <div>
-     <ProductShow WaterSealData={WaterSealData} ChemicalSealData={ChemicalSealData} OilSealData={OilSealData} />
-     </div>
-    )
+export const Products = () => {
+  return <Cardlist Data={Data} />;
+};

@@ -1,14 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 import { Row, Col } from "react-bootstrap";
+import { WaterSealData, ChemicalSealData, OilSealData } from "./ProductData";
 import { WaterSealCard, ChemicalSealCard, OilSealCard } from "./ProductCard";
-import "./Product.css";
-export class ProductShow extends Component {
-  handleClickShow = () => {};
-  render() {
-    const { WaterSealData, OilSealData, ChemicalSealData } = this.props;
+
+import { Data } from "../Data";
+
+export const ProductCategory = ({ match }) => {
+  const data = Data.find(d => d.id === match.params.id);
+  if (data.id == 1) {
     return (
-      <div className="contain">
+      <div class="contain">
         <h1>Water Seals</h1>
+
         <Row className="ml-auto ">
           {WaterSealData.map((WaterSealData, i) => (
             <Col key={WaterSealData.id} className="col-md-4">
@@ -17,12 +20,16 @@ export class ProductShow extends Component {
                 id={WaterSealData.id}
                 img1={WaterSealData.img1}
                 Productname={WaterSealData.Productname}
-                handleClickShow={this.handleClickShow}
               />
               <br />
             </Col>
           ))}
         </Row>
+      </div>
+    );
+  } else if (data.id == 2) {
+    return (
+      <div class="contain">
         <h1>Chemical Seals</h1>
         <Row className="ml-auto">
           {" "}
@@ -34,13 +41,17 @@ export class ProductShow extends Component {
                   id={ChemicalSealData.id}
                   img2={ChemicalSealData.img2}
                   Productname={ChemicalSealData.Productname}
-                  handleClickShow={this.handleClickShow}
                 />
                 <br />
               </Col>
             );
           })}
         </Row>
+      </div>
+    );
+  } else if (data.id == 3) {
+    return (
+      <div class="contain">
         <h1>Oil Seals</h1>
         <Row className="ml-auto">
           {OilSealData.map((OilSealData, i) => {
@@ -60,4 +71,15 @@ export class ProductShow extends Component {
       </div>
     );
   }
-}
+};
+
+// export const WaterSealProducts = ({ match }) => {
+//     const id = Data.find(d => d.id === match.params.id);
+//   return (
+//     <div>
+//       {" "}
+//       <p> {`
+//           ${if(match.params.id)}</p>
+//     </div>
+//   );
+// };
