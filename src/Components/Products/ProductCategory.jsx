@@ -18,7 +18,7 @@ export const ProductCategory = ({ match }) => {
               <WaterSealCard
                 key={i}
                 id={WaterSealData.id}
-                img1={WaterSealData.img1}
+                img={WaterSealData.img}
                 Productname={WaterSealData.Productname}
                 k_id={data.id}
               />
@@ -40,7 +40,7 @@ export const ProductCategory = ({ match }) => {
                 <ChemicalSealCard
                   key={i}
                   id={ChemicalSealData.id}
-                  img2={ChemicalSealData.img2}
+                  img={ChemicalSealData.img}
                   Productname={ChemicalSealData.Productname}
                   k_id={data.id}
                 />
@@ -62,7 +62,7 @@ export const ProductCategory = ({ match }) => {
                 <OilSealCard
                   key={i}
                   id={OilSealData.id}
-                  img3={OilSealData.img3}
+                  img={OilSealData.img}
                   Productname={OilSealData.Productname}
                   k_id={data.id}
                 />
