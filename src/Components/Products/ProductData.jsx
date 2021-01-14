@@ -1,7 +1,7 @@
 export const WaterSealData = [
   {
-    id: "1",
-    img1: "/ProductList/1.jpg",
+    id: "1w",
+    img: "/ProductList/1.jpg",
     Productname: "Open type (AST-O-201)",
     Content: {
       Application: "Water, Sewage, Oil Pump, Generators, Muddy Water.",
@@ -13,8 +13,8 @@ export const WaterSealData = [
     }
   },
   {
-    id: "2",
-    img1: "/ProductList/2.jpg",
+    id: "2w",
+    img: "/ProductList/2.jpg",
     Productname: "mg1 (ast - m- 202) ",
     Content: {
       Application: "sewage service, water, light chemicals.",
@@ -26,8 +26,8 @@ export const WaterSealData = [
     }
   },
   {
-    id: "3",
-    img1: "/ProductList/3.jpg",
+    id: "3w",
+    img: "/ProductList/3.jpg",
     Productname: "mg13(ast-me-202) ",
     Content: {
       Application: "sewage service, water, light chemicals.",
@@ -39,8 +39,8 @@ export const WaterSealData = [
     }
   },
   {
-    id: "4",
-    img1: "/ProductList/4.jpg",
+    id: "4w",
+    img: "/ProductList/4.jpg",
     Productname: "close type (ast-c-301) ",
     Content: {
       Application: "Water, muddy water& used where space  is there.",
@@ -52,8 +52,8 @@ export const WaterSealData = [
     }
   },
   {
-    id: "5",
-    img1: "/ProductList/5.jpg",
+    id: "5w",
+    img: "/ProductList/5.jpg",
     Productname: "John crane type (ast-jc-304) ",
     Content: {
       Application: "Water, light, chemicals, viscous fluids, mixed fluid",
@@ -64,8 +64,8 @@ export const WaterSealData = [
     }
   },
   {
-    id: "6",
-    img1: "/ProductList/6.jpg",
+    id: "6w",
+    img: "/ProductList/6.jpg",
     Productname: "John crane type (ast-jc-305) ",
     Content: {
       Application: "Water, light, chemicals, viscous fluids.",
@@ -76,8 +76,8 @@ export const WaterSealData = [
     }
   },
   {
-    id: "7",
-    img1: "/ProductList/7.jpg",
+    id: "7w",
+    img: "/ProductList/7.jpg",
     Productname: "Robin type (ast-R-401) ",
     Content: {
       Application: "Water, light, chemicals, Stems, solvents",
@@ -88,8 +88,8 @@ export const WaterSealData = [
     }
   },
   {
-    id: "8",
-    img1: "/ProductList/8.jpg",
+    id: "8w",
+    img: "/ProductList/8.jpg",
     Productname: "Electroplating type (ast-E-304) ",
     Content: {
       Application: "electroplating, light acid",
@@ -100,8 +100,8 @@ export const WaterSealData = [
     }
   },
   {
-    id: "9",
-    img1: "/ProductList/9.jpg",
+    id: "9w",
+    img: "/ProductList/9.jpg",
     Productname: "honda type (ast-H-101)  ",
     Content: {
       Application: "generators oil, engines, hydraulic liquids.",
@@ -112,8 +112,8 @@ export const WaterSealData = [
     }
   },
   {
-    id: "10",
-    img1: "/ProductList/10.jpg",
+    id: "10w",
+    img: "/ProductList/10.jpg",
     Productname: " Automobile honda type (ast-Ah-102) ",
     Content: {
       Application: "Automobiles",
@@ -124,8 +124,8 @@ export const WaterSealData = [
     }
   },
   {
-    id: "11",
-    img1: "/ProductList/11.jpg",
+    id: "11w",
+    img: "/ProductList/11.jpg",
     Productname: "crane type (ast-jc-304) ",
     Content: {
       Application: "Water, chemicals, Gas, solvents",
@@ -139,8 +139,8 @@ export const WaterSealData = [
 
 export const ChemicalSealData = [
   {
-    id: "1",
-    img2: "/chemical/1.jpg",
+    id: "1c",
+    img: "/chemical/1.jpg",
     Productname: " Multi Spring Seal , (AST-MS-303)",
     Content: {
       Application: "corrosive/viscous fluids",
@@ -153,8 +153,8 @@ export const ChemicalSealData = [
     }
   },
   {
-    id: "2",
-    img2: "/chemical/2.jpg",
+    id: "2c",
+    img: "/chemical/2.jpg",
     Productname: " Single Spring Seal , (AST-SS-303)",
     Content: {
       Application: "corrosive/viscous fluids",
@@ -166,8 +166,8 @@ export const ChemicalSealData = [
     }
   },
   {
-    id: "3",
-    img2: "/chemical/3.jpg",
+    id: "3c",
+    img: "/chemical/3.jpg",
     Productname: "Wave Spring Seal , (AST-WS-303)",
     Content: {
       Application: "corrosive application.",
@@ -178,8 +178,8 @@ export const ChemicalSealData = [
     }
   },
   {
-    id: "4",
-    img2: "/chemical/4.jpg",
+    id: "4c",
+    img: "/chemical/4.jpg",
     Productname: "Elastometer Bellow Seals , (AST-EM-205)",
     Content: {
       Application: "Slurries, sewage and waste water.",
@@ -190,8 +190,8 @@ export const ChemicalSealData = [
     }
   },
   {
-    id: "5",
-    img2: "/chemical/5.jpg",
+    id: "5c",
+    img: "/chemical/5.jpg",
     Productname: "Metal Bellow Seals , (AST-MB-403)",
     Content: {
       Application: "corrosive fluids.",
@@ -202,8 +202,8 @@ export const ChemicalSealData = [
     }
   },
   {
-    id: "6",
-    img2: "/chemical/6.jpg",
+    id: "6c",
+    img: "/chemical/6.jpg",
     Productname: "Standard Cartridge Seals, (AST-CS-406)",
     Content: {
       Application: "paper industries, Petrochemicals & Petroleum refinery.",
@@ -215,8 +215,8 @@ export const ChemicalSealData = [
     }
   },
   {
-    id: "7",
-    img2: "/chemical/7.jpg",
+    id: "7c",
+    img: "/chemical/7.jpg",
     Productname: "Slurry Seals, (AST-SL-306)",
     Content: {
       Application: "Chemical, Fertilizer industries, Paper & Pulp industries.",
@@ -228,8 +228,8 @@ export const ChemicalSealData = [
     }
   },
   {
-    id: "8",
-    img2: "/chemical/8.jpg",
+    id: "8c",
+    img: "/chemical/8.jpg",
     Productname: "Dry Running Seals, (AST-DR-407)",
     Content: {
       Application: "food products and pharmaceutical industries.",
@@ -240,8 +240,8 @@ export const ChemicalSealData = [
     }
   },
   {
-    id: "9",
-    img2: "/chemical/9.jpg",
+    id: "9c",
+    img: "/chemical/9.jpg",
     Productname: "Agitator Seals, (AST-AG-300)",
     Content: {
       Application: "Petrochemical Plants, Chemical Plants and Hydrocarbons.",
@@ -253,8 +253,8 @@ export const ChemicalSealData = [
     }
   },
   {
-    id: "10",
-    img2: "/chemical/10.jpg",
+    id: "10c",
+    img: "/chemical/10.jpg",
     Productname: "PTFE Seals, (AST-AG-300)",
     Content: {
       Application: "corrosive fluids.",
@@ -267,8 +267,8 @@ export const ChemicalSealData = [
 ];
 export const OilSealData = [
   {
-    id: "1",
-    img3: "/oil/1.jpg",
+    id: "1o",
+    img: "/oil/1.jpg",
     Productname: " oil seal METALLIC (ast-OS-101) ",
     Content: {
       Application:
@@ -280,8 +280,8 @@ export const OilSealData = [
     }
   },
   {
-    id: "2",
-    img3: "/oil/2.jpg",
+    id: "2o",
+    img: "/oil/2.jpg",
     Productname: " oil seal NON-METALLIC (ast-OS-102) ",
     Content: {
       Application:

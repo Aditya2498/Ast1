@@ -20,6 +20,7 @@ export const ProductCategory = ({ match }) => {
                 id={WaterSealData.id}
                 img1={WaterSealData.img1}
                 Productname={WaterSealData.Productname}
+                k_id={data.id}
               />
               <br />
             </Col>
@@ -41,6 +42,7 @@ export const ProductCategory = ({ match }) => {
                   id={ChemicalSealData.id}
                   img2={ChemicalSealData.img2}
                   Productname={ChemicalSealData.Productname}
+                  k_id={data.id}
                 />
                 <br />
               </Col>
@@ -62,6 +64,7 @@ export const ProductCategory = ({ match }) => {
                   id={OilSealData.id}
                   img3={OilSealData.img3}
                   Productname={OilSealData.Productname}
+                  k_id={data.id}
                 />
                 <br />
               </Col>
@@ -72,14 +75,3 @@ export const ProductCategory = ({ match }) => {
     );
   }
 };
-
-// export const WaterSealProducts = ({ match }) => {
-//     const id = Data.find(d => d.id === match.params.id);
-//   return (
-//     <div>
-//       {" "}
-//       <p> {`
-//           ${if(match.params.id)}</p>
-//     </div>
-//   );
-// };

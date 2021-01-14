@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-export const WaterSealCard = ({ img1, Productname, id }) => {
+export const WaterSealCard = ({ img1, Productname, id, k_id }) => {
   return (
     <div>
       <Card style={{ width: "14rem", height: "auto" }}>
@@ -17,7 +17,7 @@ export const WaterSealCard = ({ img1, Productname, id }) => {
           <Card.Title style={{ textAlign: "center", color: "#284894" }}>
             {Productname}
           </Card.Title>
-          <Link to={`/${id}`}>
+          <Link to={`/${k_id}/${id}`}>
             <Button>Know More!</Button>
           </Link>
         </Card.Body>
@@ -26,7 +26,7 @@ export const WaterSealCard = ({ img1, Productname, id }) => {
   );
 };
 
-export const ChemicalSealCard = ({ img2, Productname, id }) => (
+export const ChemicalSealCard = ({ img2, Productname, id, k_id }) => (
   <div>
     <Card style={{ width: "12rem" }}>
       <Card.Img variant="top" src={img2} height="180rem" width="140rem" />
@@ -40,7 +40,7 @@ export const ChemicalSealCard = ({ img2, Productname, id }) => (
         <Card.Title style={{ textAlign: "center", color: "#284894" }}>
           {Productname}
         </Card.Title>
-        <Link to="/:id">
+        <Link to={`/${k_id}/${id}`}>
           <Button>Know More!</Button>
         </Link>
       </Card.Body>
@@ -48,7 +48,7 @@ export const ChemicalSealCard = ({ img2, Productname, id }) => (
   </div>
 );
 
-export const OilSealCard = ({ img3, Productname, id }) => (
+export const OilSealCard = ({ img3, Productname, id, k_id }) => (
   <div>
     <Card style={{ width: "12rem" }}>
       <Card.Img variant="top" src={img3} height="180rem" width="140rem" />
@@ -62,7 +62,7 @@ export const OilSealCard = ({ img3, Productname, id }) => (
         <Card.Title style={{ textAlign: "center", color: "#284894" }}>
           {Productname}
         </Card.Title>
-        <Link to="/:id">
+        <Link to={`/${k_id}/${id}`}>
           <Button>Know More!</Button>
         </Link>
       </Card.Body>

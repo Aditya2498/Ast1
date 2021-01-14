@@ -30,7 +30,7 @@ function App() {
               <Route path="/products" exact component={Products} />
               {/* <Route path="/products/:" exact component={WaterSealProducts} /> */}
               <Route path="/products/:id" exact component={ProductCategory} />
-              <Route path="/:id" exact component={ProductDisplay} />
+              <Route path="/:k_id/:id" exact component={ProductDisplay} />
 
               {/* <Route path="/waterseal" component={WaterSealProducts} />
             <Route path="/waterseal" component={WaterSealProducts} /> */}
