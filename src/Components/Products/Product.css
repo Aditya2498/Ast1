@@ -1,14 +1,19 @@
-.contain{
-    box-sizing: border-box;
-    width: auto;
-    text-align: center;
-    padding: 5px;
-    background-color: rgb(75, 100, 138);
-    border-radius: 20px;
-    color:white;
+.contain {
+  box-sizing: border-box;
+  width: auto;
+  text-align: center;
+  padding: 3rem;
+  /* padding-right: auto; */
+  background-color: rgb(75, 100, 138);
+  border-radius: 20px;
+  color: white;
 }
-.flex{
-    display: flex;
-    justify-content: center;
+.flex {
+  display: flex;
+  justify-content: center;
 }
-
+@media only screen and (max-width: 680px) {
+  .contain {
+    padding-left: 40px;
+  }
+}

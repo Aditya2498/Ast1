@@ -5,7 +5,7 @@ import { WaterSealData, ChemicalSealData, OilSealData } from "./ProductData";
 
 export const ProductDisplay = ({ match }) => {
   const key_id = match.params.k_id;
-  if (key_id == 1) {
+  if (key_id === "1") {
     const data = WaterSealData.find(d => d.id === match.params.id);
     return (
       <div className="center">
@@ -34,7 +34,7 @@ export const ProductDisplay = ({ match }) => {
         </div>
       </div>
     );
-  } else if (key_id == 2) {
+  } else if (key_id === "2") {
     const data = ChemicalSealData.find(d => d.id === match.params.id);
     return (
       <div className="center">
@@ -63,7 +63,7 @@ export const ProductDisplay = ({ match }) => {
         </div>
       </div>
     );
-  } else if (key_id == 3) {
+  } else if (key_id === "3") {
     const data = OilSealData.find(d => d.id === match.params.id);
     return (
       <div className="center">

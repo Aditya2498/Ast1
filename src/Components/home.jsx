@@ -3,7 +3,7 @@ import { Data } from "../Components/Data.jsx";
 import { Cardlist } from "../Components/Cardlist.jsx";
 
 export const home = () => (
-  <div>
+  <>
     <h2 style={{ color: "#284894", fontSize: "3em", fontFamily: "Oswald" }}>
       Welcome to AST!
     </h2>
@@ -70,5 +70,5 @@ export const home = () => (
         <Cardlist Data={Data} />
       </div>
     </div>
-  </div>
+  </>
 );

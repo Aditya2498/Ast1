@@ -13,6 +13,7 @@ import { Layout } from "./Components/Layout.jsx";
 import { Jumbotron } from "./Components/jumbo.jsx";
 import { NavigationBar } from "./Components/navbar.jsx";
 import { ProductCategory } from "./Components/Products/ProductCategory";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
@@ -20,25 +21,23 @@ function App() {
       <Router>
         <NavigationBar />
         <Jumbotron />
-        <main>
-          <Layout>
+
+        <Container>
+          <main>
+            {/* <Layout> */}
             <Switch>
               <Route exact path="/" component={home} />
               <Route path="/about" component={about} />
               <Route path="/blog" component={blog} />
               <Route path="/contact" component={contact} />
               <Route path="/products" exact component={Products} />
-              {/* <Route path="/products/:" exact component={WaterSealProducts} /> */}
               <Route path="/products/:id" exact component={ProductCategory} />
               <Route path="/:k_id/:id" exact component={ProductDisplay} />
-
-              {/* <Route path="/waterseal" component={WaterSealProducts} />
-            <Route path="/waterseal" component={WaterSealProducts} /> */}
-
               <Route component={nomatch} />
             </Switch>
-          </Layout>
-        </main>
+            {/* </Layout> */}
+          </main>
+        </Container>
       </Router>
       <Footer />
     </React.Fragment>

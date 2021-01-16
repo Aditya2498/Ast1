@@ -140,7 +140,7 @@ export const WaterSealData = [
 export const ChemicalSealData = [
   {
     id: "1c",
-    img: "/chemical/1.jpg",
+    img: "/chemical/1.JPG",
     Productname: " Multi Spring Seal , (AST-MS-303)",
     Content: {
       Application: "corrosive/viscous fluids",
@@ -154,7 +154,7 @@ export const ChemicalSealData = [
   },
   {
     id: "2c",
-    img: "/chemical/2.jpg",
+    img: "/chemical/2.JPG",
     Productname: " Single Spring Seal , (AST-SS-303)",
     Content: {
       Application: "corrosive/viscous fluids",
@@ -167,7 +167,7 @@ export const ChemicalSealData = [
   },
   {
     id: "3c",
-    img: "/chemical/3.jpg",
+    img: "/chemical/3.JPG",
     Productname: "Wave Spring Seal , (AST-WS-303)",
     Content: {
       Application: "corrosive application.",
@@ -179,7 +179,7 @@ export const ChemicalSealData = [
   },
   {
     id: "4c",
-    img: "/chemical/4.jpg",
+    img: "/chemical/4.JPG",
     Productname: "Elastometer Bellow Seals , (AST-EM-205)",
     Content: {
       Application: "Slurries, sewage and waste water.",
@@ -191,7 +191,7 @@ export const ChemicalSealData = [
   },
   {
     id: "5c",
-    img: "/chemical/5.jpg",
+    img: "/chemical/5.JPG",
     Productname: "Metal Bellow Seals , (AST-MB-403)",
     Content: {
       Application: "corrosive fluids.",
@@ -203,7 +203,7 @@ export const ChemicalSealData = [
   },
   {
     id: "6c",
-    img: "/chemical/6.jpg",
+    img: "/chemical/6.JPG",
     Productname: "Standard Cartridge Seals, (AST-CS-406)",
     Content: {
       Application: "paper industries, Petrochemicals & Petroleum refinery.",
@@ -216,7 +216,7 @@ export const ChemicalSealData = [
   },
   {
     id: "7c",
-    img: "/chemical/7.jpg",
+    img: "/chemical/7.JPG",
     Productname: "Slurry Seals, (AST-SL-306)",
     Content: {
       Application: "Chemical, Fertilizer industries, Paper & Pulp industries.",
@@ -229,7 +229,7 @@ export const ChemicalSealData = [
   },
   {
     id: "8c",
-    img: "/chemical/8.jpg",
+    img: "/chemical/8.JPG",
     Productname: "Dry Running Seals, (AST-DR-407)",
     Content: {
       Application: "food products and pharmaceutical industries.",
@@ -241,7 +241,7 @@ export const ChemicalSealData = [
   },
   {
     id: "9c",
-    img: "/chemical/9.jpg",
+    img: "/chemical/9.JPG",
     Productname: "Agitator Seals, (AST-AG-300)",
     Content: {
       Application: "Petrochemical Plants, Chemical Plants and Hydrocarbons.",
@@ -254,7 +254,7 @@ export const ChemicalSealData = [
   },
   {
     id: "10c",
-    img: "/chemical/10.jpg",
+    img: "/chemical/10.JPG",
     Productname: "PTFE Seals, (AST-AG-300)",
     Content: {
       Application: "corrosive fluids.",
