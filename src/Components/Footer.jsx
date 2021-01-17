@@ -3,8 +3,14 @@ import { Row, Col } from "react-bootstrap";
 
 export const Footer = () => {
   return (
-    <Row className=" navbar navbar-expand-lg navbar-dark bg-primary text-warning">
-      <Col className="text-center py-3 ">Copyright &copy; AST</Col>
+    <Row
+      className=" navbar navbar-expand-lg navbar-dark bg-primary text-warning"
+      sm={8}
+      md={6}
+      lg={4}
+      xl={3}
+    >
+      {/* <Col className="text-center py-3 ">Copyright &copy; AST</Col> */}
       <Col className="text-center py-3 ">
         Contact us <i className="fas fa-phone-square-alt"></i>: <br />
         Unit No. 6 , Patel Compound, Near Atlanta Estate, Beside Virwani Ind

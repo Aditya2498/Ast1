@@ -25,3 +25,6 @@ main {
     padding-right: 40px;
   }
 } */
+i:hover {
+  font-size: 2rem;
+}
