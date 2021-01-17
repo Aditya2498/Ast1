@@ -1,7 +1,8 @@
 import React from "react";
 import { Data } from "../Components/Data.jsx";
 import { Cardlist } from "../Components/Cardlist.jsx";
-
+import { Link } from "react-router-dom";
+import { ProductJumbo } from "./ProductJumbo";
 export const home = () => (
   <>
     <h2 style={{ color: "#284894", fontSize: "3em", fontFamily: "Oswald" }}>
@@ -66,8 +67,11 @@ export const home = () => (
         <br style={{ fontSize: "1.2rem" }} />
         <i>.Excellent after sales services</i>
       </div>
+      <br />
       <div style={{ marginBottom: "12em" }}>
-        <Cardlist Data={Data} />
+        <Link to="/products">
+          <ProductJumbo />
+        </Link>
       </div>
     </div>
   </>
