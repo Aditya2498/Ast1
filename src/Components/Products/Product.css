@@ -1,19 +1,13 @@
 .contain {
+  color: #284894;
+
+  font-family: "Oswald";
   box-sizing: border-box;
-  width: auto;
-  text-align: center;
-  padding: 3rem;
-  /* padding-right: auto; */
   background-color: rgb(75, 100, 138);
   border-radius: 20px;
+  padding: 10px;
+}
+h1 {
   color: white;
-}
-.flex {
-  display: flex;
-  justify-content: center;
-}
-@media only screen and (max-width: 680px) {
-  .contain {
-    padding-left: 40px;
-  }
+  font-size: 3em;
 }

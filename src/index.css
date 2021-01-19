@@ -14,17 +14,16 @@ code {
 main {
   min-height: 90vh;
 }
-/* .outer-container {
+.outer-container {
   margin-left: auto;
   padding-left: 15rem;
-  border: 10px solid black;
-} */
-/* 
+}
+
 @media only screen and (max-width: 680px) {
   .outer-container {
     padding-right: 40px;
   }
-} */
+}
 i:hover {
   font-size: 2rem;
 }

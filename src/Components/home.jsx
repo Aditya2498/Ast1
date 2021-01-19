@@ -20,16 +20,19 @@ export const home = () => (
       </p>
       <br />
       <div
-        style={{ fontSize: "1.8rem", color: "#2F4F4F", fontFamily: "Oswald" }}
+        style={{
+          fontSize: "1.8rem",
+          color: "#2F4F4F",
+          fontFamily: "Oswald ",
+          fontStyle: "italic"
+        }}
       >
-        <i>
-          " Stainless Steel, Carbon , TC , Ceramic , Silicon Carbide , PTFE ,
-          CFT , Stellite , GFT parts used for various Industries i.e. Waste
-          Water, Onshore, Offshore, Chemical & Petrochemical, Refinery, Pulp &
-          Paper , Compressor , Hot Water , Marine , Sugar , Pharmaceutical,
-          Textiles Compressor , Quarrying & Coal Mining etc. as per Client
-          Drawings and requirement."
-        </i>
+        " Stainless Steel, Carbon , TC , Ceramic , Silicon Carbide , PTFE , CFT
+        , Stellite , GFT parts used for various Industries i.e. Waste Water,
+        Onshore, Offshore, Chemical & Petrochemical, Refinery, Pulp & Paper ,
+        Compressor , Hot Water , Marine , Sugar , Pharmaceutical, Textiles
+        Compressor , Quarrying & Coal Mining etc. as per Client Drawings and
+        requirement."
       </div>
       <br />
       <h1 style={{ fontSize: "3rem", color: "#284894", fontFamily: "Oswald" }}>

@@ -1,20 +1,18 @@
-.center{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(136, 163, 218);
-    border-radius: 1.5rem;
-    flex-wrap: wrap;
-    }
-.box{
-    margin-top: 2rem;
-    font-size: 1.4rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-    color:black;
-}   
-.content{
-    margin-right: auto;
-    margin-left: auto;
-} 
+.center {
+  justify-content: center;
+  background-color: rgb(136, 163, 218);
+  border-radius: 1.5rem;
+}
+.box {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  color: black;
+}
+.content {
+  margin-right: auto;
+  margin-left: auto;
+}
