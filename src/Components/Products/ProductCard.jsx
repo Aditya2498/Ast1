@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const WaterSealCard = ({ img, Productname, id, k_id }) => {
   return (
     <Card style={{ backgroundColor: "#c0c0c0", textAlign: "center" }}>
-      <Card.Img variant="top" src={img} height="180rem" width="140rem" />
+      <Card.Img variant="top" src={img} height="200rem" width="140rem" />
       <Card.Body
         style={{
           borderRadius: "0.5rem",
@@ -28,7 +28,7 @@ export const WaterSealCard = ({ img, Productname, id, k_id }) => {
 export const ChemicalSealCard = ({ img, Productname, id, k_id }) => {
   return (
     <Card style={{ backgroundColor: "#c0c0c0", textAlign: "center" }}>
-      <Card.Img variant="top" src={img} height="180rem" width="140rem" />
+      <Card.Img variant="top" src={img} height="200rem" width="140rem" />
       <Card.Body
         style={{
           borderRadius: "0.5rem",
@@ -51,7 +51,7 @@ export const ChemicalSealCard = ({ img, Productname, id, k_id }) => {
 export const OilSealCard = ({ img, Productname, id, k_id }) => {
   return (
     <Card style={{ backgroundColor: "#c0c0c0", textAlign: "center" }}>
-      <Card.Img variant="top" src={img} height="180rem" width="140rem" />
+      <Card.Img variant="top" src={img} height="200rem" width="140rem" />
       <Card.Body
         style={{
           borderRadius: "0.5rem",
