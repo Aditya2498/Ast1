@@ -19,17 +19,15 @@ export const ProductDisplay = ({ match }) => {
   if (key_id === "1") {
     const data = WaterSealData.find(d => d.id === match.params.id);
     return (
-      <Container>
-        <Row style={{ backgroundColor: "rgb(72, 105, 155)", padding: "2rem" }}>
+      <Container >
+        <Row  className="justify-content-md-center">
           <Link to={`/products/${key_id}`}>
             <Button>back</Button>
           </Link>{" "}
-          <Col sm={12} md={5} lg={4}>
+          <Col sm={12} md={5} lg={4} >
             <Card>
               <img className="single-image" src={data.img} alt="image" />
             </Card>
-          </Col>
-          <Col sm={12} md={7} lg={6}>
             <ListGroup variant="flush">
               <ListGroupItem
                 style={{
@@ -82,14 +80,14 @@ export const ProductDisplay = ({ match }) => {
                 <strong> AvailableSize:{data.Content.AvailableSize}</strong>
               </ListGroupItem>
             </ListGroup>
-          </Col>
+           </Col>
         </Row>
       </Container>
     );
   } else if (key_id === "2") {
     const data = ChemicalSealData.find(d => d.id === match.params.id);
     return (
-      <Container>
+      <Container className="justify-content-md-center">
         <Row style={{ backgroundColor: "rgb(72, 105, 155)", padding: "2rem" }}>
           <Link to={`/products/${key_id}`}>
             <Button>back</Button>
@@ -159,7 +157,7 @@ export const ProductDisplay = ({ match }) => {
   } else if (key_id === "3") {
     const data = OilSealData.find(d => d.id === match.params.id);
     return (
-      <Container>
+      <Container className="justify-content-md-center">
         <Link to={`/products/${key_id}`}>
           <Button>back</Button>
         </Link>{" "}
