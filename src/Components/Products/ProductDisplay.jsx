@@ -93,7 +93,7 @@ export const ProductDisplay = ({ match }) => {
         <Row style={{ backgroundColor: "rgb(72, 105, 155)", padding: "2rem" }}>
           <Link to={`/products/${key_id}`}>
             <Button>back</Button>
-          </Link>
+          </Link>{" "}
           <Col sm={12} md={5} lg={4}>
             <Card>
               <img className="single-image" src={data.img} alt="image" />
@@ -162,7 +162,7 @@ export const ProductDisplay = ({ match }) => {
       <Container>
         <Link to={`/products/${key_id}`}>
           <Button>back</Button>
-        </Link>
+        </Link>{" "}
         <Row style={{ backgroundColor: "rgb(72, 105, 155)", padding: "2rem" }}>
           <Col sm={12} md={5} lg={4}>
             <Card>
