@@ -4,8 +4,15 @@ import "../Components/Footer.css";
 export const Footer = () => {
   return (
 
-    <Row className="footer" style={{ backgroundColor: "#284894", color: "white" }}>
-      <Col md={12} lg={12} className="text-center" >
+    <Row  style={{ backgroundColor: "#284894", color: "white" }}>
+      <Col style={{padding:"2rem", fontSize:"1.2rem"}} xs={12} lg={7} md={7}>
+      Get in touch!
+      <br/>
+      We are always happy to hear from you.
+      <br/>
+      Help us, Serve you better.
+      </Col>
+      <Col  className="text-center" >
         <i className="fas fa-phone-square-alt" style={{ padding: "0.5rem" }}></i>
           + 91 - 22 - 29277159 <br />
         <i className="fas fa-phone-square-alt" style={{ padding: "0.5rem" }}></i>
