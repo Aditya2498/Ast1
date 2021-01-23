@@ -19,12 +19,14 @@ export const ProductDisplay = ({ match }) => {
   if (key_id === "1") {
     const data = WaterSealData.find(d => d.id === match.params.id);
     return (
-      <Container >
+      <Container style={{padding:"2rem"}} >
         <Row  className="justify-content-md-center">
+          <Col sm={12} md={8} lg={8} >
           <Link to={`/products/${key_id}`}>
             <Button>back</Button>
           </Link>{" "}
-          <Col sm={12} md={5} lg={4} >
+          </Col>
+          <Col sm={12} md={8} lg={5} >
             <Card>
               <img className="single-image" src={data.img} alt="image" />
             </Card>

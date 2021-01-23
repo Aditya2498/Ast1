@@ -22,8 +22,7 @@ function App() {
       <Router>
         <NavigationBar />
         <Jumbotron />
-
-        <Container>
+         <Container>
           <main>
             {/* <Layout> */}
             <Switch>
@@ -41,7 +40,7 @@ function App() {
           </main>
         </Container>
       </Router>
-      <Footer />
+      <Footer/>
     </React.Fragment>
   );
 }
