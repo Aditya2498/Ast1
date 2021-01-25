@@ -28,7 +28,7 @@ export const Jumbotron = () => (
   <Styles>
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
-      <Container>
+      <Container fluid>
         <h1 style={{ fontFamily: "Source Sans Pro" }}>
           A one stop shop solution, for all your seal requirements.
         </h1>
