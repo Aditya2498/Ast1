@@ -9,12 +9,10 @@ import { Footer } from "./Components/Footer.jsx";
 import { nomatch } from "./Components/nomatch.jsx";
 import { Products } from "./Components/Products/Products.jsx";
 import { ProductDisplay } from "./Components/Products/ProductDisplay.jsx";
-import { Layout } from "./Components/Layout.jsx";
 import { Jumbotron } from "./Components/jumbo.jsx";
 import { NavigationBar } from "./Components/navbar.jsx";
 import { ProductCategory } from "./Components/Products/ProductCategory";
-import colorPicker from "./Components/colorPicker";
-import { Container } from "react-bootstrap";
+
 
 function App() {
   return (
@@ -22,8 +20,6 @@ function App() {
       <Router>
         <NavigationBar />
         <Jumbotron />
-         <Container>
-          <main>
             {/* <Layout> */}
             <Switch>
               <Route exact path="/" component={home} />
@@ -33,12 +29,9 @@ function App() {
               <Route path="/products" exact component={Products} />
               <Route path="/products/:id" exact component={ProductCategory} />
               <Route path="/:k_id/:id" exact component={ProductDisplay} />
-              <Route path="/color" exact component={colorPicker} />
               <Route component={nomatch} />
             </Switch>
             {/* </Layout> */}
-          </main>
-        </Container>
       </Router>
       <Footer/>
     </React.Fragment>

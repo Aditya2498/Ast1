@@ -27,16 +27,15 @@ const Styles = styled.div`
 
 export const ProductJumbo = () => (
   <Styles>
-    <Jumbo fluid className="jumbo">
-      <div className="overlay"></div>
-      <Container>
-        <h1 className="jumbo-text">
-          <b>
-            {" "}
-            <i>Our Products</i>
-          </b>
-        </h1>
-      </Container>
-    </Jumbo>
-  </Styles>
+  <Jumbo fluid className="jumbo">
+    <div className="overlay"></div>
+    <Container>
+      <h1 style={{fontFamily:'Source Sans Pro'}}>
+        <b>
+         Our Products
+        </b> 
+      </h1>
+    </Container>
+  </Jumbo>
+</Styles> 
 );

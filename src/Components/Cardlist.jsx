@@ -1,6 +1,6 @@
 import React from "react";
 import { Cards } from "./Cards.jsx";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 export const Cardlist = ({ Data }) => (
   <>
     <h1
