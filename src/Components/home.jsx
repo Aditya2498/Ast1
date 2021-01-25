@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { ProductJumbo } from "./ProductJumbo";
 export const home = () => (
-  <Container>
+  <Container fluid>
     <h1
       style={{
         color: "#284894",
