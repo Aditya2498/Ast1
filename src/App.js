@@ -13,27 +13,26 @@ import { Jumbotron } from "./Components/jumbo.jsx";
 import { NavigationBar } from "./Components/navbar.jsx";
 import { ProductCategory } from "./Components/Products/ProductCategory";
 
-
 function App() {
   return (
     <React.Fragment>
       <Router>
         <NavigationBar />
         <Jumbotron />
-            {/* <Layout> */}
-            <Switch>
-              <Route exact path="/" component={home} />
-              <Route path="/about" component={about} />
-              <Route path="/blog" component={blog} />
-              <Route path="/contact" component={contact} />
-              <Route path="/products" exact component={Products} />
-              <Route path="/products/:id" exact component={ProductCategory} />
-              <Route path="/:k_id/:id" exact component={ProductDisplay} />
-              <Route component={nomatch} />
-            </Switch>
-            {/* </Layout> */}
+        {/* <Layout> */}
+        <Switch>
+          <Route exact path="/" component={home} />
+          <Route path="/about" component={about} />
+          <Route path="/blog" component={blog} />
+          <Route path="/contact" component={contact} />
+          <Route path="/products" exact component={Products} />
+          <Route path="/products/:id" exact component={ProductCategory} />
+          <Route path="/:k_id/:id" exact component={ProductDisplay} />
+          <Route component={nomatch} />
+        </Switch>
+        {/* </Layout> */}
       </Router>
-      <Footer/>
+      <Footer />
     </React.Fragment>
   );
 }
