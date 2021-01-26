@@ -1,0 +1,13 @@
+.contain {
+  color: #284894;
+
+  font-family: "Oswald";
+  box-sizing: border-box;
+  background-color: rgb(72, 105, 155);
+  border-radius: 20px;
+  padding: 10px;
+}
+h1 {
+  color: white;
+  font-size: 3em;
+}
