@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import './about.css';
+
 
 export const about = () =>(
     <Container>
@@ -30,7 +30,7 @@ export const about = () =>(
         <h1 style={{ color: "#284894", fontSize: "3em", fontFamily: 'Source Sans Pro' }}>
         Quality Assurance
         </h1> 
-        <p  style={{ color: "#2F4F4F", fontFamily:'Source Sans Pro', fontSize: "1.5rem" }}> 
+        <p style={{ color: "#2F4F4F", fontFamily:'Source Sans Pro', fontSize: "1.5rem" }}> 
             <ul>
                 <li>Durability</li>
                 <li>Dimensional accuracy</li>
@@ -38,5 +38,71 @@ export const about = () =>(
                 <li>Corrosion & abrasion resistance</li>
             </ul>  
         </p>
+        <h1 style={{ color: "#284894", fontSize: "3em", fontFamily: 'Source Sans Pro' }}>
+        TESTING FACILITIES :Research and Development
+        </h1> 
+        <p style={{ color: "#2F4F4F", fontFamily:'Source Sans Pro', fontSize: "1.5rem" }}>
+         A specific R&D unit has been set up by us in order to carry out all our research activities.
+         Furthermore, rigorous researches are carried out by us whenever there is a requirement
+         for the up-gradation of our machines and tools. Our extensive research activities also
+         enables us to keep abreast with the prevailing trends of the market.
+         <br/>
+         <br/>
+         We have also hired R&D professionals to control and manage this unit. These professionals are highly qualified and are well-versed with all the nuances related to their respective domains. 
+         We undertake research with a view of adding new dimensions to our manufacturing process. 
+         Furthermore, rigorous researches are carried out by us whenever there is a requirement for 
+         the up-gradation of our machines and tools. Our extensive research activities also enables us 
+         to keep abreast with the prevailing trends of the market.
+         <br/>
+         </p>
+         <h1 style={{ color: "#284894", fontSize: "3em", fontFamily: 'Source Sans Pro' }}>
+         Machinery
+        </h1> 
+        <p style={{ color: "#2F4F4F", fontFamily:'Source Sans Pro', fontSize: "1.5rem" }}>
+        Power Press, Hand Press, Rubber Mould, Ovens , 
+        Lathe Machines, Grinding Machines, Grinding Machines, Drill Machines,
+        Lapping Machine, Check Light, Hardness Tester, Dial Verniers, Micrometer, 
+        Bore Gauge, Bench G Grinders , Load testing and Seal test plant .
+        </p>
+         <br/>
+         <h1 style={{ color: "#284894", fontSize: "3em", fontFamily: 'Source Sans Pro' }}>
+         Client Satisfaction
+        </h1> 
+        <p style={{ color: "#2F4F4F", fontFamily:'Source Sans Pro', fontSize: "1.5rem" }}>
+        The client-centric approach of our firm allows us to offer excellent quality products to our clients. 
+        Our products are economically priced and are in conformation with international quality standards. 
+        We also offer the products to our clients within the stipulated time-frame. Our clients can avail the products 
+        by easy and simple payment modes, as per their convenience.
+        We have achieved utmost client satisfaction from different corners of the world owing to our superior grade products.
+        </p>
+        <br/>
+         <h1 style={{ color: "#284894", fontSize: "3em", fontFamily: 'Source Sans Pro' }}>
+         Water Seals
+        </h1> 
+        <p style={{ color: "#2F4F4F", fontFamily:'Source Sans Pro', fontSize: "1.5rem" }}>
+        This gland seal water serves three important functions: it enables the pump shaft to rotate 
+        within its sleeve with minimum friction, it prevents the slurry from back-flowing into the seals 
+        and damaging the shaft, and. it allows for a small amount of cooling of the pump shaft, which heats up as 
+        it rotates at high speeds.
+        </p>
+        <h1 style={{ color: "#284894", fontSize: "3em", fontFamily: 'Source Sans Pro' }}>
+        Chemical Seal
+        </h1>
+        <p style={{ color: "#2F4F4F", fontFamily:'Source Sans Pro', fontSize: "1.5rem" }}>
+        The purpose of a diaphragm seal is to isolate a pressure measuring instrument from the process media. 
+        It is often used for the most difficult measuring tasks, such as when the environment is extremely hot or 
+        cold, or when a process connection is difficult to attach to the measuring instrument
+        </p> 
+        <h1 style={{ color: "#284894", fontSize: "3em", fontFamily: 'Source Sans Pro' }}>
+        Oil seal
+        </h1> 
+        <p style={{ color: "#2F4F4F", fontFamily:'Source Sans Pro', fontSize: "1.5rem" }}>
+        Often called grease, fluid or dirt seals – close spaces between stationary and moving 
+        components in mechanical equipment, helping prevent lubricant escape. 
+        They also stop harmful contaminants from entering machinery, particularly in severe environments.
+        </p>
+        
+        <br/>
+        
     </Container>
 )

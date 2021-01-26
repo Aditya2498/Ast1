@@ -1,15 +1,12 @@
 import React from 'react';
 import {Nav,Navbar} from 'react-bootstrap';
-
-import './about.css';
+import "../App.css";
 import {LinkContainer} from 'react-router-bootstrap';
 import Logo from '../assets/Logo.jpg';
 import Logotext from '../assets/Logotext.png';
 
-
-
 export const NavigationBar = ( ) =>(
-  <div className='font ' >
+  <div >
       <Navbar expand= 'lg'>
        <LinkContainer to ="/">
           <Navbar.Brand>
@@ -24,14 +21,14 @@ export const NavigationBar = ( ) =>(
              <Nav.Item>
              <LinkContainer to ="/">
                 <Nav.Link >
-                <div className="font"> Home </div>
+                <div className="nav-bar"> Home </div>
                </Nav.Link>
              </LinkContainer>
              </Nav.Item>
 
              <Nav.Item>
              <LinkContainer to ="/about"><Nav.Link>
-             <div className="font">  About</div>
+             <div className="nav-bar">  About</div>
               </Nav.Link>
              </LinkContainer>
              </Nav.Item>
@@ -39,7 +36,7 @@ export const NavigationBar = ( ) =>(
              <Nav.Item>
              <LinkContainer to='/blog'>
              <Nav.Link>
-             <div className="font">
+             <div className="nav-bar">
              Blog 
              </div>
             </Nav.Link>
@@ -49,7 +46,7 @@ export const NavigationBar = ( ) =>(
              <Nav.Item>
              <LinkContainer  to='/products'>
              <Nav.Link>
-             <div className="font">
+             <div className="nav-bar">
              Products
              </div>
              </Nav.Link>
@@ -59,7 +56,7 @@ export const NavigationBar = ( ) =>(
              <Nav.Item>
              <LinkContainer to='/contact'>
              <Nav.Link>
-             <div className="font">
+             <div className="nav-bar">
              Contact 
              </div>
              </Nav.Link>
