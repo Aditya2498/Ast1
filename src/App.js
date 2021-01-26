@@ -12,19 +12,13 @@ import { ProductDisplay } from "./Components/Products/ProductDisplay.jsx";
 import { Jumbotron } from "./Components/jumbo.jsx";
 import { NavigationBar } from "./Components/navbar.jsx";
 import { ProductCategory } from "./Components/Products/ProductCategory";
-<<<<<<< HEAD
 
-
-=======
-import { Layout } from "./Components/Layout";
->>>>>>> 3f72f6962eb5b2f8b28ebfb50f07ffb0646eb33a
 function App() {
   return (
     <React.Fragment>
       <Router>
-        <NavigationBar />
+        <NavigationBar/>
         <Jumbotron />
-<<<<<<< HEAD
             {/* <Layout> */}
             <Switch>
               <Route exact path="/" component={home} />
@@ -39,22 +33,6 @@ function App() {
             {/* </Layout> */}
       </Router>
       <Footer/>
-=======
-        <Layout>
-          <Switch>
-            <Route exact path="/" component={home} />
-            <Route path="/about" component={about} />
-            <Route path="/blog" component={blog} />
-            <Route path="/contact" component={contact} />
-            <Route path="/products" exact component={Products} />
-            <Route path="/products/:id" exact component={ProductCategory} />
-            <Route path="/:k_id/:id" exact component={ProductDisplay} />
-            <Route component={nomatch} />
-          </Switch>
-        </Layout>
-      </Router>
-      <Footer />
->>>>>>> 3f72f6962eb5b2f8b28ebfb50f07ffb0646eb33a
     </React.Fragment>
   );
 }
