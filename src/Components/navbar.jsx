@@ -1,5 +1,7 @@
 import React from 'react';
 import {Nav,Navbar} from 'react-bootstrap';
+
+import './about.css';
 import {LinkContainer} from 'react-router-bootstrap';
 import Logo from '../assets/Logo.jpg';
 import Logotext from '../assets/Logotext.png';
@@ -7,8 +9,8 @@ import Logotext from '../assets/Logotext.png';
 
 
 export const NavigationBar = ( ) =>(
-    <div >
-       <Navbar expand= 'lg'>
+  <div className='font ' >
+      <Navbar expand= 'lg'>
        <LinkContainer to ="/">
           <Navbar.Brand>
            <img src={Logo} height='80'width='80' alt='logo'/>

@@ -1,7 +1,10 @@
-import React from 'react';
-import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
-import styled from 'styled-components';
-import Image from '../assets/Image.gif';
+
+
+import React from "react";
+import { Jumbotron as Jumbo, Container } from "react-bootstrap";
+import styled from "styled-components";
+import Image from "../assets/Image.gif";
+
 
 const Styles = styled.div`
   .jumbo {
@@ -28,9 +31,12 @@ export const Jumbotron = () => (
   <Styles>
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
-      <Container>
-        <h1 style={{fontFamily:'Source Sans Pro'}}>A one stop shop solution, for all your seal requirements.</h1>
+      <Container fluid>
+        <h1 style={{ fontFamily: "Source Sans Pro" }}>
+          A one stop shop solution, for all your seal requirements.
+        </h1>
       </Container>
     </Jumbo>
   </Styles>
-)
+);
+
