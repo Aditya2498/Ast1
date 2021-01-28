@@ -3,8 +3,8 @@ import { Row, Col, Container } from "react-bootstrap";
 import "../Components/Footer.css";
 export const Footer = () => {
   return (
-    <Container fluid>
-    <Row  style={{ backgroundColor: "#284894", color: "white" }}>
+    <Container fluid style={{paddingTop:"60px"}}>
+    <Row  style={{ backgroundColor: "#284894", color: "white"}}>
       <Col style={{padding:"3rem", fontSize:"1.2rem"}} xs={12} lg={7} md={7}>
       Get in touch!
       <br/>

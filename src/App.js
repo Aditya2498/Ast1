@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { home } from "./Components/home.jsx";
+import {Container} from 'react-bootstrap';
 import { about } from "./Components/about.jsx";
 import { contact } from "./Components/contact.jsx";
 import { blog } from "./Components/blog.jsx";
@@ -30,7 +31,7 @@ function App() {
               <Route path="/:k_id/:id" exact component={ProductDisplay} />
               <Route component={nomatch} />
             </Switch>
-            {/* </Layout> */}
+            {/* </Layout> */}     
       </Router>
       <Footer/>
     </React.Fragment>
