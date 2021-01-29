@@ -34,16 +34,6 @@ export const NavigationBar = ( ) =>(
              </Nav.Item>
 
              <Nav.Item>
-             <LinkContainer to='/blog'>
-             <Nav.Link>
-             <div className="nav-bar">
-             Blog 
-             </div>
-            </Nav.Link>
-             </LinkContainer>
-              </Nav.Item>
-
-             <Nav.Item>
              <LinkContainer  to='/products'>
              <Nav.Link>
              <div className="nav-bar">

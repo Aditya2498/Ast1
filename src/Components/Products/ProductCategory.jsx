@@ -10,14 +10,17 @@ export const ProductCategory = ({ match }) => {
   const data = Data.find(d => d.id === match.params.id);
   if (data.id === "1") {
     return (
+      <Container>
       <div className="contain">
         <Link to="/products">
           <Button>
-            <i className="fas fa-arrow-alt-circle-left" />
+          <i class="fas fa-arrow-circle-left"></i>
           </Button>
         </Link>
         <br />
-        <h1 style={{ textAlign: "center" }}>Water Seals</h1>
+        <h1 style={{ textAlign: "center"}}>
+         <b> Water Seals </b>
+        </h1>
         <br />
         <Row>
           {WaterSealData.map((WaterSealData, i) => (
@@ -33,18 +36,22 @@ export const ProductCategory = ({ match }) => {
             </Col>
           ))}
         </Row>
-        //{" "}
+        {" "}
       </div>
+    </Container>
     );
   } else if (data.id === "2") {
     return (
+      <Container>
       <div class="contain">
         <Link to="/products">
           <Button>
-            <i className="fas fa-arrow-alt-circle-left" />
+          <i class="fas fa-arrow-circle-left"></i>
           </Button>
         </Link>
-        <h1 style={{ textAlign: "center" }}>Chemical Seals</h1>
+        <h1 style={{ textAlign: "center" }}>
+         <b>Chemical Seals</b> 
+        </h1>
         <Row>
           {ChemicalSealData.map((ChemicalSealData, i) => (
             <Col key={ChemicalSealData.id} sm={11} md={6} lg={4} xl={3}>
@@ -60,16 +67,20 @@ export const ProductCategory = ({ match }) => {
           ))}
         </Row>
       </div>
+      </Container>
     );
   } else if (data.id === "3") {
     return (
+      <Container>
       <div class="contain">
         <Link to="/products">
           <Button>
-            <i className="fas fa-arrow-alt-circle-left" />
+          <i class="fas fa-arrow-circle-left"></i>
           </Button>
         </Link>
-        <h1 style={{ textAlign: "center" }}>Oil Seals</h1>
+        <h1 style={{ textAlign: "center" }}>
+        <b>Oil Seals </b>  
+        </h1>
         <Row>
           {OilSealData.map((OilSealData, i) => (
             <Col key={OilSealData.id} sm={11} md={6} lg={4} xl={3}>
@@ -85,6 +96,7 @@ export const ProductCategory = ({ match }) => {
           ))}
         </Row>
       </div>
+      </Container>
     );
   }
 };

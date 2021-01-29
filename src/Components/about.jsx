@@ -40,7 +40,7 @@ export const about = () => (
             </ul>
         </p>
         <h1 className="header">
-            TESTING FACILITIES :Research and Development
+            TESTING FACILITIES: Research and Development
         </h1>
         <p className="content" style={{fontSize:"1.5rem"}} >
             A specific R&D unit has been set up by us in order to carry out all our research activities.

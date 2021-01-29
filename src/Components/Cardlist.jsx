@@ -1,18 +1,16 @@
 import React from "react";
 import { Cards } from "./Cards.jsx";
+import {Container} from 'react-bootstrap';
+import "./Font.css";
 import { Row, Col } from "react-bootstrap";
 export const Cardlist = ({ Data }) => (
-  <>
+  <Container>
     <h1
-      style={{
-        color: "#284894",
-        fontSize: "3em",
-        fontFamily: "Oswald",
-        textAlign: "center"
-      }}
+     className="header-main"
+     style={{fontSize:"4rem"}}
     >
       {" "}
-      OUR PRODUCTS
+      <b>OUR PRODUCTS</b>
     </h1>
     <Row>
       {Data.map(data => {
@@ -24,5 +22,5 @@ export const Cardlist = ({ Data }) => (
         );
       })}
     </Row>
-  </>
+  </Container>
 );
