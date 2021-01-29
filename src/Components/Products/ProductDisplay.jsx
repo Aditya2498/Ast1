@@ -5,7 +5,6 @@ import { WaterSealData, ChemicalSealData, OilSealData } from "./ProductData";
 import {
   Row,
   Col,
-  Image,
   ListGroup,
   ListGroupItem,
   Card,
@@ -22,11 +21,13 @@ export const ProductDisplay = ({ match }) => {
       <Container className="justify-content-md-center">
         <Row style={{ backgroundColor: "rgb(72, 105, 155)", padding: "2rem" }}>
           <Link to={`/products/${key_id}`}>
-            <Button>back</Button>
+            <Button>
+              <i class="fas fa-arrow-circle-left"></i>
+            </Button>
           </Link>{" "}
           <Col sm={12} md={5} lg={4}>
             <Card>
-              <img className="single-image" src={data.img} alt="image" />
+              <img className="single-image" src={data.img} alt="image" height="300" width="100%" />
             </Card>
           </Col>
           <Col sm={12} md={7} lg={6}>
@@ -37,7 +38,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong> Title: {data.Productname} </strong>
+                <strong> Title : {data.Productname} </strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -45,7 +46,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong>Application: {data.Content.Application}</strong>
+                <strong>Application : {data.Content.Application}</strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -53,7 +54,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong>Features: {data.Content.Features}</strong>
+                <strong>Features : {data.Content.Features}</strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -62,7 +63,7 @@ export const ProductDisplay = ({ match }) => {
                 }}
               >
                 <strong>
-                  Operating Conditions: {data.Content.OperatingConditions}
+                  Operating Conditions : {data.Content.OperatingConditions}
                 </strong>
               </ListGroupItem>
               <ListGroupItem
@@ -71,7 +72,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong>Pressure:{data.Content.Pressure}</strong>
+                <strong>Pressure : {data.Content.Pressure}</strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -79,7 +80,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong> AvailableSize:{data.Content.AvailableSize}</strong>
+                <strong> AvailableSize : {data.Content.AvailableSize}</strong>
               </ListGroupItem>
             </ListGroup>
           </Col>
@@ -92,11 +93,13 @@ export const ProductDisplay = ({ match }) => {
       <Container className="justify-content-md-center">
         <Row style={{ backgroundColor: "rgb(72, 105, 155)", padding: "2rem" }}>
           <Link to={`/products/${key_id}`}>
-            <Button>back</Button>
+            <Button>
+            <i class="fas fa-arrow-circle-left"></i>
+            </Button>
           </Link>{" "}
           <Col sm={12} md={5} lg={4}>
             <Card>
-              <img className="single-image" src={data.img} alt="image" />
+              <img className="single-image" src={data.img} alt="image" height="300" width="100%"/>
             </Card>
           </Col>
           <Col sm={12} md={7} lg={6}>
@@ -107,7 +110,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong> Title: {data.Productname} </strong>
+                <strong> Title : {data.Productname} </strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -115,7 +118,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong>Application: {data.Content.Application}</strong>
+                <strong>Application : {data.Content.Application}</strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -123,7 +126,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong>Features: {data.Content.Features}</strong>
+                <strong>Features : {data.Content.Features}</strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -132,7 +135,7 @@ export const ProductDisplay = ({ match }) => {
                 }}
               >
                 <strong>
-                  Operating Conditions: {data.Content.OperatingConditions}
+                  Operating Conditions : {data.Content.OperatingConditions}
                 </strong>
               </ListGroupItem>
               <ListGroupItem
@@ -141,7 +144,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong>Pressure:{data.Content.Pressure}</strong>
+                <strong>Pressure : {data.Content.Pressure}</strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -149,7 +152,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong> AvailableSize:{data.Content.AvailableSize}</strong>
+                <strong> AvailableSize : {data.Content.AvailableSize}</strong>
               </ListGroupItem>
             </ListGroup>
           </Col>
@@ -162,11 +165,13 @@ export const ProductDisplay = ({ match }) => {
       <Container className="justify-content-md-center">
         <Row style={{ backgroundColor: "rgb(72, 105, 155)", padding: "2rem" }}>
           <Link to={`/products/${key_id}`}>
-            <Button>back</Button>
+            <Button>
+            <i class="fas fa-arrow-circle-left"></i>
+            </Button>
           </Link>{" "}
           <Col sm={12} md={5} lg={4}>
             <Card>
-              <img className="single-image" src={data.img} alt="image" />
+              <img className="single-image" src={data.img} alt="image" height="300" width="100%" />
             </Card>
           </Col>
           <Col sm={12} md={7} lg={6}>
@@ -174,10 +179,11 @@ export const ProductDisplay = ({ match }) => {
               <ListGroupItem
                 style={{
                   backgroundColor: "rgb(72, 105, 155)",
-                  color: "white"
+                  color: "white",
+                  fontFamily:"Source Sans Pro"
                 }}
               >
-                <strong> Title: {data.Productname} </strong>
+                <strong> Title : {data.Productname} </strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -185,7 +191,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong>Application: {data.Content.Application}</strong>
+                <strong>Application : {data.Content.Application}</strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -193,7 +199,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong>Features: {data.Content.Features}</strong>
+                <strong>Features : {data.Content.Features}</strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -202,7 +208,7 @@ export const ProductDisplay = ({ match }) => {
                 }}
               >
                 <strong>
-                  Operating Conditions: {data.Content.OperatingConditions}
+                  Operating Conditions : {data.Content.OperatingConditions}
                 </strong>
               </ListGroupItem>
               <ListGroupItem
@@ -211,7 +217,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong>Pressure:{data.Content.Pressure}</strong>
+                <strong>Pressure : {data.Content.Pressure}</strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -219,7 +225,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong> AvailableSize:{data.Content.AvailableSize}</strong>
+                <strong> AvailableSize : {data.Content.AvailableSize}</strong>
               </ListGroupItem>
             </ListGroup>
           </Col>
