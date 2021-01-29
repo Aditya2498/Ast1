@@ -29,7 +29,9 @@ export const about = () => (
         </p>
 
         <h1 className="header">
-            Quality Assurance
+            <b>
+                Quality Assurance
+            </b>
         </h1>
         <p className="content" style={{fontSize:"1.5rem"}} >
             <ul>
@@ -40,7 +42,9 @@ export const about = () => (
             </ul>
         </p>
         <h1 className="header">
-            TESTING FACILITIES: Research and Development
+            <b>
+                TESTING FACILITIES: Research and Development
+            </b>
         </h1>
         <p className="content" style={{fontSize:"1.5rem"}} >
             A specific R&D unit has been set up by us in order to carry out all our research activities.
@@ -57,7 +61,9 @@ export const about = () => (
          <br />
         </p>
         <h1 className="header">
-            Machinery
+            <b>
+            Machinery   
+            </b>
         </h1>
         <p className="content" style={{fontSize:"1.5rem"}} >
             Power Press, Hand Press, Rubber Mould, Ovens ,
@@ -67,7 +73,9 @@ export const about = () => (
         </p>
         <br />
         <h1 className="header">
-            Client Satisfaction
+            <b>
+            Client Satisfaction   
+            </b>
         </h1>
         <p className="content" style={{fontSize:"1.5rem"}} >
             The client-centric approach of our firm allows us to offer excellent quality products to our clients.
@@ -78,8 +86,10 @@ export const about = () => (
         </p>
         <br />
         <h1 className="header">
-            Water Seals
-        </h1>
+            <b>
+            Water Seals   
+            </b>
+       </h1>
         <p className="content" style={{fontSize:"1.5rem"}} style={{fontSize:"1.5rem"}} >
             This gland seal water serves three important functions: it enables the pump shaft to rotate
             within its sleeve with minimum friction, it prevents the slurry from back-flowing into the seals
@@ -87,7 +97,9 @@ export const about = () => (
             it rotates at high speeds.
         </p>
         <h1 className="header">
+            <b>
             Chemical Seal
+            </b>
         </h1>
         <p className="content" style={{fontSize:"1.5rem"}} >
             The purpose of a diaphragm seal is to isolate a pressure measuring instrument from the process media.
@@ -95,7 +107,9 @@ export const about = () => (
             cold, or when a process connection is difficult to attach to the measuring instrument
         </p>
         <h1 className="header">
+            <b>            
             Oil seal
+            </b>
         </h1>
         <p className="content" style={{fontSize:"1.5rem"}} >
             Often called grease, fluid or dirt seals – close spaces between stationary and moving

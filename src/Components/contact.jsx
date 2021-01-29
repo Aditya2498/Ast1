@@ -19,7 +19,8 @@ export const contact = () =>(
      Maharashtra , India. 
      <br/>
      Tel:  + 91 - 22 - 29277159
-     Mob No: +91 - 7738914409
+     <br/>
+     Mob No: +91 - 7208441467
      <br/>  
      Email Id:   advanceseals@yahoo.co.in  
    </p>
