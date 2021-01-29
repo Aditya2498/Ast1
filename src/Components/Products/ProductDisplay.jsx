@@ -25,12 +25,12 @@ export const ProductDisplay = ({ match }) => {
               <i class="fas fa-arrow-circle-left"></i>
             </Button>
           </Link>{" "}
-          <Col sm={12} md={5} lg={4}>
+          <Col sm={12} md={8} lg={4}>
             <Card>
               <img className="single-image" src={data.img} alt="image" height="300" width="100%" />
             </Card>
           </Col>
-          <Col sm={12} md={7} lg={6}>
+          <Col sm={12} md={12} lg={6}>
             <ListGroup variant="flush">
               <ListGroupItem
                 style={{
@@ -46,7 +46,7 @@ export const ProductDisplay = ({ match }) => {
                   color: "white"
                 }}
               >
-                <strong>Application : {data.Content.Application}</strong>
+                <strong> Application : {data.Content.Application}</strong>
               </ListGroupItem>
               <ListGroupItem
                 style={{
@@ -97,12 +97,12 @@ export const ProductDisplay = ({ match }) => {
             <i class="fas fa-arrow-circle-left"></i>
             </Button>
           </Link>{" "}
-          <Col sm={12} md={5} lg={4}>
+          <Col sm={12} md={8} lg={4}>
             <Card>
               <img className="single-image" src={data.img} alt="image" height="300" width="100%"/>
             </Card>
           </Col>
-          <Col sm={12} md={7} lg={6}>
+          <Col sm={12} md={12} lg={6}>
             <ListGroup variant="flush">
               <ListGroupItem
                 style={{
@@ -169,12 +169,12 @@ export const ProductDisplay = ({ match }) => {
             <i class="fas fa-arrow-circle-left"></i>
             </Button>
           </Link>{" "}
-          <Col sm={12} md={5} lg={4}>
+          <Col sm={12} md={8} lg={4}>
             <Card>
               <img className="single-image" src={data.img} alt="image" height="300" width="100%" />
             </Card>
           </Col>
-          <Col sm={12} md={7} lg={6}>
+          <Col sm={12} md={12} lg={6}>
             <ListGroup variant="flush">
               <ListGroupItem
                 style={{
