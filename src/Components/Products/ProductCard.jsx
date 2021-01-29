@@ -33,7 +33,7 @@ export const ChemicalSealCard = ({ img, Productname, id, k_id }) => {
   return (
     <Container>
     <Card style={{ backgroundColor: "#c0c0c0", textAlign: "center",fontSize:"1.5rem" }}>
-      <Card.Img variant="top" src={img} height="200rem" width="140rem" />
+      <Card.Img variant="top" src={img} height="200rem" width="150%" />
       <Card.Body
         style={{
           borderRadius: "0.5rem",

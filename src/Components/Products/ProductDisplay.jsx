@@ -94,7 +94,7 @@ export const ProductDisplay = ({ match }) => {
         <Row style={{ backgroundColor: "rgb(72, 105, 155)", padding: "2rem" }}>
           <Link to={`/products/${key_id}`}>
             <Button>
-            <i class="fas fa-arrow-circle-left"></i>
+             <i class="fas fa-arrow-circle-left"></i>
             </Button>
           </Link>{" "}
           <Col sm={12} md={8} lg={4}>

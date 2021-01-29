@@ -79,7 +79,7 @@ export const ProductCategory = ({ match }) => {
           </Button>
         </Link>
         <h1 style={{ textAlign: "center" }}>
-        <b>Oil Seals </b>  
+        <b>Oil Seals</b>  
         </h1>
         <Row>
           {OilSealData.map((OilSealData, i) => (

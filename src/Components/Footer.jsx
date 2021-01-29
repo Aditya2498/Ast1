@@ -32,7 +32,7 @@ export const Footer = () => {
          advanceseals@yahoo.co.in
           <br />
         <i className="fab fa-facebook" style={{ padding: "0.5rem" }}></i>
-        <i className="fab fa-instagram-square" style={{ padding: "0.5rem" }}></i>
+        <i class="fab fa-linkedin" style={{ padding: "0.5rem"}}></i>
         <i className="fab fa-twitter-square" style={{ padding: "0.5rem" }}></i>
       </Col>
     </Row>

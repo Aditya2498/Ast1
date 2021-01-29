@@ -7,7 +7,7 @@ import {Container} from 'react-bootstrap';
 export const contact = () =>(
     <div>
      <Container>
-     <h2 className="header-main" style={{fontSize:"3rem"}} >Contact Us  <i className="fas fa-phone-square-alt"></i></h2>
+     <h2 className="header-main" style={{fontSize:"3rem"}} >Contact Us <i className="fas fa-phone-square-alt"></i></h2>
      <div className="content" style={{fontSize:"1.5rem"}}> <b>
      A. H. Mansuri (Proprietor)
          </b></div>
