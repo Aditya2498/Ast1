@@ -9,13 +9,15 @@ export const contact = () =>(
      <Container>
      <h2 className="header-main" style={{fontSize:"3rem"}} >Contact Us <i className="fas fa-phone-square-alt"></i></h2>
      <div className="content" style={{fontSize:"1.5rem"}}> <b>
-     A. H. Mansuri (Proprietor)
+     Ms. Firdos Shaikh 
          </b></div>
      <p className="content" style={{fontSize:"1.5rem"}}>
      Unit No. 6 , Patel Compound,                      
-     Near Atlanta Estate,                              
+     Near Atlanta Estate, 
+     <br/>                             
      Beside Virwani  Ind Estate,                   
-     Goregaon (E) Mumbai – 400 063.                 
+     Goregaon (E) Mumbai – 400 063. 
+     <br/>                
      Maharashtra , India. 
      <br/>
      Tel:  + 91 - 22 - 29277159

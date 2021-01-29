@@ -15,14 +15,15 @@ export const Footer = () => {
       <Col  className="" style={{marginTop:"0.5rem"}} >
         Contact Us :
           <br />
-        <i class="fas fa-map-marker-alt" style={{ padding: "0.5rem" }}></i>
-          Unit No. 6 , Patel Compound, Near Atlanta Estate, Beside Virwani Ind
-          Estate,
-          <br />
-           Goregaon (E)  Mumbai – 400 063.
-          <br />
-           Maharashtra , India.
-          <br />
+          <p>
+          <i class="fas fa-map-marker-alt" style={{ padding: "0.5rem" }}></i>
+            Unit No. 6 , Patel Compound, Near Atlanta Estate, Beside Virwani Ind
+            Estate,
+            <br />
+            &nbsp; &nbsp;  &nbsp; &nbsp;  Goregaon (E)  Mumbai – 400 063.
+            <br />
+            &nbsp; &nbsp;  &nbsp; &nbsp;   Maharashtra , India.
+          </p>
           <i className="fas fa-phone-square-alt" style={{ padding: "0.5rem" }}></i>
           + 91 - 22 - 29277159 <br />
           <i className="fas fa-phone-square-alt" style={{ padding: "0.5rem" }}></i>
@@ -31,7 +32,7 @@ export const Footer = () => {
           <i class="fas fa-envelope-square" style={{ padding: "0.5rem" }}></i>
          advanceseals@yahoo.co.in
           <br />
-          Join us on:
+          &nbsp; &nbsp;  &nbsp; &nbsp; Join us on:
         <i class="fab fa-linkedin" style={{ padding: "0.5rem"}}></i>
       </Col>
     </Row>
