@@ -90,7 +90,7 @@ export const about = () => (
             Water Seals   
             </b>
        </h1>
-        <p className="content" style={{fontSize:"1.5rem"}} style={{fontSize:"1.5rem"}} >
+        <p className="content" style={{fontSize:"1.5rem"}}  >
             This gland seal water serves three important functions: it enables the pump shaft to rotate
             within its sleeve with minimum friction, it prevents the slurry from back-flowing into the seals
             and damaging the shaft, and. it allows for a small amount of cooling of the pump shaft, which heats up as

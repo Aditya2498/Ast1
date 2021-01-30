@@ -1,7 +1,15 @@
 import React from "react";
 import { Row, Col, Container} from "react-bootstrap";
 import "../Components/Footer.css";
+
+
+
 export const Footer = () => {
+
+const buttonUrl = (e) =>{
+      e.preventDefault();
+      window.location.href="http://linkedin.com/in/advance-technology-30971244";
+  }
   return (
     <Container fluid style={{paddingTop:"60px"}}>
     <Row  style={{ backgroundColor: "#284894", color: "white"}}>
@@ -35,9 +43,9 @@ export const Footer = () => {
           &nbsp;&nbsp;&nbsp;advanceseals@yahoo.co.in
           <br />
           &emsp; &emsp; Join us on:
-        <a href="https/www.google.com" alt="link">
+        <span onClick={buttonUrl}>
         <i class="fab fa-linkedin" style={{ padding: "0.5rem"}}></i>
-        </a>
+        </span>
       </Col>
     </Row>
     </Container>

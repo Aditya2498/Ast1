@@ -15,7 +15,7 @@ export const WaterSealData = [
   {
     id: "2w",
     img: "/ProductList/2.jpg",
-    Productname: "mg1 (ast - m- 202) ",
+    Productname: "MG1 (AST-M-202) ",
     Content: {
       Application: "sewage service, water, light chemicals.",
       Features:
@@ -28,7 +28,7 @@ export const WaterSealData = [
   {
     id: "3w",
     img: "/ProductList/3.jpg",
-    Productname: "mg13(ast-me-202) ",
+    Productname: "MG13(AST-ME-202) ",
     Content: {
       Application: "sewage service, water, light chemicals.",
       Features:
@@ -41,7 +41,7 @@ export const WaterSealData = [
   {
     id: "4w",
     img: "/ProductList/4.jpg",
-    Productname: "close type (ast-c-301) ",
+    Productname: "Close Type (AST-C-301) ",
     Content: {
       Application: "Water, muddy water& used where space  is there.",
       Features:
@@ -54,7 +54,7 @@ export const WaterSealData = [
   {
     id: "5w",
     img: "/ProductList/5.png",
-    Productname: "John crane type (ast-jc-304) ",
+    Productname: "John Crane Type (AST-JC-304) ",
     Content: {
       Application: "Water, light, chemicals, viscous fluids, mixed fluid",
       Features: "Single acting,dependent on direction of rotation.",
@@ -66,7 +66,7 @@ export const WaterSealData = [
   {
     id: "6w",
     img: "/ProductList/6.jpg",
-    Productname: "John crane type (ast-jc-305) ",
+    Productname: "John Crane Type (AST-JC-305) ",
     Content: {
       Application: "Water, light, chemicals, viscous fluids.",
       Features: "Single acting, dependent on direction of rotation.",
@@ -78,7 +78,7 @@ export const WaterSealData = [
   {
     id: "7w",
     img: "/ProductList/7.jpg",
-    Productname: "Robin type (ast-R-401) ",
+    Productname: "Robin Type (AST-R-401) ",
     Content: {
       Application: "Water, light, chemicals, Stems, solvents",
       Features: "Single acting,dependent on direction of rotation.",
@@ -90,7 +90,7 @@ export const WaterSealData = [
   {
     id: "8w",
     img: "/ProductList/8.jpg",
-    Productname: "Electroplating type (ast-E-304) ",
+    Productname: "Electroplating Type (AST-E-304) ",
     Content: {
       Application: "electroplating, light acid",
       Features: "Single acting, independent on direction of rotation.",
@@ -102,7 +102,7 @@ export const WaterSealData = [
   {
     id: "9w",
     img: "/ProductList/9.jpg",
-    Productname: "honda type (ast-H-101)  ",
+    Productname: "Honda Type (AST-H-101)  ",
     Content: {
       Application: "generators oil, engines, hydraulic liquids.",
       Features: "Single acting, independent on direction of rotation.",
@@ -114,7 +114,7 @@ export const WaterSealData = [
   {
     id: "10w",
     img: "/ProductList/10.jpg",
-    Productname: " Automobile honda type (ast-Ah-102) ",
+    Productname: " Automobile Honda Type (AST-AH-102) ",
     Content: {
       Application: "Automobiles",
       Features: "Single acting, independent on direction of rotation.",
@@ -126,7 +126,7 @@ export const WaterSealData = [
   {
     id: "11w",
     img: "/ProductList/11.jpg",
-    Productname: "crane type (ast-jc-304) ",
+    Productname: "Crane Type (AST-JC-304) ",
     Content: {
       Application: "Water, chemicals, Gas, solvents",
       Features: "Single acting, dependent on direction of rotation.",
@@ -141,7 +141,7 @@ export const ChemicalSealData = [
   {
     id: "1c",
     img: "/chemical/1.JPG",
-    Productname: " Multi Spring Seal , (AST-MS-303)",
+    Productname: " Multi Spring Seal (AST-MS-303)",
     Content: {
       Application: "corrosive/viscous fluids",
       Features:
@@ -155,7 +155,7 @@ export const ChemicalSealData = [
   {
     id: "2c",
     img: "/chemical/2.JPG",
-    Productname: " Single Spring Seal , (AST-SS-303)",
+    Productname: " Single Spring Seal (AST-SS-303)",
     Content: {
       Application: "corrosive/viscous fluids",
       Features: "Single arrangements both balanced and Unbalanced.",
@@ -168,7 +168,7 @@ export const ChemicalSealData = [
   {
     id: "3c",
     img: "/chemical/3.JPG",
-    Productname: "Wave Spring Seal , (AST-WS-303)",
+    Productname: "Wave Spring Seal (AST-WS-303)",
     Content: {
       Application: "corrosive application.",
       Features: "Single arrangements both balanced and Unbalanced.",
@@ -180,7 +180,7 @@ export const ChemicalSealData = [
   {
     id: "4c",
     img: "/chemical/4.JPG",
-    Productname: "Elastometer Bellow Seals , (AST-EM-205)",
+    Productname: "Elastometer Bellow Seals (AST-EM-205)",
     Content: {
       Application: "Slurries, sewage and waste water.",
       Features: "Single arrangements both balanced and Unbalanced.",
@@ -192,7 +192,7 @@ export const ChemicalSealData = [
   {
     id: "5c",
     img: "/chemical/5.JPG",
-    Productname: "Metal Bellow Seals , (AST-MB-403)",
+    Productname: "Metal Bellow Seals  (AST-MB-403)",
     Content: {
       Application: "corrosive fluids.",
       Features: "Single AND DOUBLE arrangements both balanced and Unbalanced.",
@@ -204,7 +204,7 @@ export const ChemicalSealData = [
   {
     id: "6c",
     img: "/chemical/6.JPG",
-    Productname: "Standard Cartridge Seals, (AST-CS-406)",
+    Productname: "Standard Cartridge Seals (AST-CS-406)",
     Content: {
       Application: "paper industries, Petrochemicals & Petroleum refinery.",
       Features: "single and double fitting form.",
@@ -217,7 +217,7 @@ export const ChemicalSealData = [
   {
     id: "7c",
     img: "/chemical/7.JPG",
-    Productname: "Slurry Seals, (AST-SL-306)",
+    Productname: "Slurry Seals (AST-SL-306)",
     Content: {
       Application: "Chemical, Fertilizer industries, Paper & Pulp industries.",
       Features:
@@ -230,7 +230,7 @@ export const ChemicalSealData = [
   {
     id: "8c",
     img: "/chemical/8.JPG",
-    Productname: "Dry Running Seals, (AST-DR-407)",
+    Productname: "Dry Running Seals (AST-DR-407)",
     Content: {
       Application: "food products and pharmaceutical industries.",
       Features: "Single arrangements balanced",
@@ -242,7 +242,7 @@ export const ChemicalSealData = [
   {
     id: "9c",
     img: "/chemical/9.JPG",
-    Productname: "Agitator Seals, (AST-AG-300)",
+    Productname: "Agitator Seals (AST-AG-300)",
     Content: {
       Application: "Petrochemical Plants, Chemical Plants and Hydrocarbons.",
       Features: "Single AND DOUBLE arrangements both balanced and Unbalanced.",
@@ -255,7 +255,7 @@ export const ChemicalSealData = [
   {
     id: "10c",
     img: "/chemical/10.JPG",
-    Productname: "PTFE Seals, (AST-AG-300)",
+    Productname: "PTFE Seals  (AST-AG-300)",
     Content: {
       Application: "corrosive fluids.",
       Features: "Single both balanced and Unbalanced.",
@@ -269,7 +269,7 @@ export const OilSealData = [
   {
     id: "1o",
     img: "/oil/1.jpg",
-    Productname: " oil seal METALLIC (ast-OS-101) ",
+    Productname: " Oil Seal METALLIC (AST-OS-101) ",
     Content: {
       Application:
         "Hydraulic seals, vacuum seals, seals ,engine - motor shaft, transmission seals.",
@@ -282,7 +282,7 @@ export const OilSealData = [
   {
     id: "2o",
     img: "/oil/2.jpg",
-    Productname: " oil seal NON-METALLIC (ast-OS-102) ",
+    Productname: " Oil Seal NON-METALLIC (AST-OS-102) ",
     Content: {
       Application:
         "Hydraulic seals, vacuum seals, seals ,engine - motor shaft, transmission seals.",

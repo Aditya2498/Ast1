@@ -2,9 +2,13 @@ import React from 'react';
 import './Font.css';
 import {Container} from 'react-bootstrap';
 
-
-
-export const contact = () =>(
+export const contact = () =>
+{
+  const buttonUrl = (e) =>{
+    e.preventDefault();
+    window.location.href="http://linkedin.com/in/advance-technology-30971244";
+}
+  return(
     <div>
      <Container>
      <h2 className="header-main" style={{fontSize:"3rem"}} >Contact Us <i className="fas fa-phone-square-alt"></i></h2>
@@ -25,7 +29,13 @@ export const contact = () =>(
      Mob No: +91 - 7208441467
      <br/>  
      Email Id:   advanceseals@yahoo.co.in  
+     <br/>
+     Join us on : &ensp;
+     <span onClick={buttonUrl} style={{cursor:"pointer",}} >
+        <i class="fab fa-linkedin fa-2x" style={{}}></i>
+      </span>
    </p>
      </Container>
     </div>
 )
+  }
