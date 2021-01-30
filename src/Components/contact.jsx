@@ -9,7 +9,7 @@ export const contact = () =>(
      <Container>
      <h2 className="header-main" style={{fontSize:"3rem"}} >Contact Us <i className="fas fa-phone-square-alt"></i></h2>
      <div className="content" style={{fontSize:"1.5rem"}}> <b>
-     Ms. Firdos Shaikh 
+     Ms. Firdos Shaikh (Contact Person)
          </b></div>
      <p className="content" style={{fontSize:"1.5rem"}}>
      Unit No. 6 , Patel Compound,                      

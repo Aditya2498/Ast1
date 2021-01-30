@@ -33,7 +33,7 @@ export const Jumbotron = () => (
       <div className="overlay"></div>
       <Container fluid>
         <h1 style={{ fontFamily: "Source Sans Pro" }}>
-          A one stop shop solution, for all your seal requirements.
+          The one stop shop solution, for all your seal requirements.
         </h1>
       </Container>
     </Jumbo>
