@@ -53,7 +53,7 @@ export const WaterSealData = [
   },
   {
     id: "5w",
-    img: "/ProductList/5.png",
+    img: "/ProductList/5.jpg",
     Productname: "John Crane Type (AST-JC-304) ",
     Content: {
       Application: "Water, light, chemicals, viscous fluids, mixed fluid",
