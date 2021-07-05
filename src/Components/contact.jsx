@@ -1,5 +1,6 @@
 import React from 'react';
 import './Font.css';
+import Iso from '../assets/Iso-logo.png';
 import {Container} from 'react-bootstrap';
 
 export const contact = () =>
@@ -28,7 +29,8 @@ export const contact = () =>
      <br/>
      Mob No: +91 - 7208441467
      <br/>  
-     Email Id:   advanceseals@yahoo.co.in  
+     Email Id:   advanceseals@yahoo.co.in 
+     <img src={Iso} alt='isoimg' style={{height:'4.5em',width:'9em'}}/> 
      <br/>
      Join us on : &ensp;
      <span onClick={buttonUrl} style={{cursor:"pointer",}} >
