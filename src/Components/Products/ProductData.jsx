@@ -40,7 +40,7 @@ export const WaterSealData = [
   {
     id: "4w",
     img: "/ProductList/3.jpg",
-    Productname: "MG13(AST-ME-202) ",
+    Productname: "MG13 (AST-ME13-202) ",
     Content: {
       Application: "sewage service, water, light chemicals.",
       Features:
@@ -66,7 +66,7 @@ export const WaterSealData = [
   {
     id: "6w",
     img: "/ProductList/5.jpg",
-    Productname: "John Crane Type (AST-JC-304) ",
+    Productname: "John Crane Type (AST-JC-402) ",
     Content: {
       Application: "Water, light, chemicals, viscous fluids, mixed fluid",
       Features: "Single acting,dependent on direction of rotation.",
