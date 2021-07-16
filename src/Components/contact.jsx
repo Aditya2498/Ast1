@@ -1,6 +1,5 @@
 import React from 'react';
 import './Font.css';
-import Iso from '../assets/Iso-logo.png';
 import {Container} from 'react-bootstrap';
 
 export const contact = () =>

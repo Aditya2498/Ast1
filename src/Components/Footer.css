@@ -6,3 +6,22 @@
   font-family: "Source Sans Pro";
   background: #c0c0c0;
 }
+.cert-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cert-container img{
+  border-radius: 0.8em;
+  margin: 1em;
+}
+.cert-container :first-child{
+  margin-left: 0;
+}
+
+@media  screen and (max-width:480px) {
+  .cert-container{
+    flex-direction: column;
+  }
+}
