@@ -27,6 +27,18 @@ export const WaterSealData = [
   },
   {
     id: "3w",
+    img: "/ProductList/10.jpg",
+    Productname: "MG-12 (AST-ME-202) ",
+    Content: {
+      Application: "Water, sewage, light chemicals",
+      Features: "Single acting, independent on direction of rotation.",
+      OperatingConditions: "temperature upto 200 °C",
+      Pressure: "Upto 10 Bars",
+      AvailableSize: "60 mm"
+    }
+  },
+  {
+    id: "4w",
     img: "/ProductList/3.jpg",
     Productname: "MG13(AST-ME-202) ",
     Content: {
@@ -39,7 +51,7 @@ export const WaterSealData = [
     }
   },
   {
-    id: "4w",
+    id: "5w",
     img: "/ProductList/4.jpg",
     Productname: "Close Type (AST-C-301) ",
     Content: {
@@ -52,7 +64,7 @@ export const WaterSealData = [
     }
   },
   {
-    id: "5w",
+    id: "6w",
     img: "/ProductList/5.jpg",
     Productname: "John Crane Type (AST-JC-304) ",
     Content: {
@@ -64,9 +76,9 @@ export const WaterSealData = [
     }
   },
   {
-    id: "6w",
+    id: "7w",
     img: "/ProductList/6.jpg",
-    Productname: "John Crane Type (AST-JC-305) ",
+    Productname: "J1 Type (AST-J1-305) ",
     Content: {
       Application: "Water, light, chemicals, viscous fluids.",
       Features: "Single acting, dependent on direction of rotation.",
@@ -76,7 +88,7 @@ export const WaterSealData = [
     }
   },
   {
-    id: "7w",
+    id: "8w",
     img: "/ProductList/7.jpg",
     Productname: "Robin Type (AST-R-401) ",
     Content: {
@@ -88,7 +100,7 @@ export const WaterSealData = [
     }
   },
   {
-    id: "8w",
+    id: "9w",
     img: "/ProductList/8.jpg",
     Productname: "Electroplating Type (AST-E-304) ",
     Content: {
@@ -100,7 +112,7 @@ export const WaterSealData = [
     }
   },
   {
-    id: "9w",
+    id: "10w",
     img: "/ProductList/9.jpg",
     Productname: "Honda Type (AST-H-101)  ",
     Content: {
@@ -112,8 +124,8 @@ export const WaterSealData = [
     }
   },
   {
-    id: "10w",
-    img: "/ProductList/10.jpg",
+    id: "11w",
+    img: "/ProductList/11.jpg",
     Productname: " Automobile Honda Type (AST-AH-102) ",
     Content: {
       Application: "Automobiles",
@@ -121,18 +133,6 @@ export const WaterSealData = [
       OperatingConditions: "temperature upto 120 °C",
       Pressure: " Upto 7 Bars",
       AvailableSize: "as per required"
-    }
-  },
-  {
-    id: "11w",
-    img: "/ProductList/11.jpg",
-    Productname: "Crane Type (AST-JC-304) ",
-    Content: {
-      Application: "Water, chemicals, Gas, solvents",
-      Features: "Single acting, dependent on direction of rotation.",
-      OperatingConditions: "temperature upto 200 °C",
-      Pressure: "Upto 10 Bars",
-      AvailableSize: "60 mm"
     }
   }
 ];
