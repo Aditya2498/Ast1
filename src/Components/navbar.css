@@ -1,0 +1,11 @@
+.iso-cert{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media screen and (max-width:480px) {
+    .iso-cert{
+        flex-direction: column;
+    }    
+}

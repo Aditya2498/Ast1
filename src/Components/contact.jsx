@@ -30,7 +30,6 @@ export const contact = () =>
      Mob No: +91 - 7208441467
      <br/>  
      Email Id:   advanceseals@yahoo.co.in 
-     <img src={Iso} alt='isoimg' style={{height:'4.5em',width:'9em'}}/> 
      <br/>
      Join us on : &ensp;
      <span onClick={buttonUrl} style={{cursor:"pointer",}} >

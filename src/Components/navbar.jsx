@@ -1,5 +1,8 @@
 import React from 'react';
 import {Nav,Navbar} from 'react-bootstrap';
+import Iso from '../assets/Iso-logo.png';
+import './navbar.css';
+
 import "../App.css";
 import {LinkContainer} from 'react-router-bootstrap';
 import Logo from '../assets/Logo.jpg';
@@ -10,9 +13,13 @@ export const NavigationBar = ( ) =>(
       <Navbar expand= 'lg'>
        <LinkContainer to ="/">
           <Navbar.Brand>
+          <div className='iso-cert'>
+            <div>
            <img src={Logo} height='80'width='80' alt='logo'/>
-            <> <img src={Logotext} height='60' alt='logotext'/></>
-            
+            <img src={Logotext} height='60' alt='logotext'/>
+            </div>
+            <img src={Iso} alt='isoimg' style={{height:'3.5em',width:'7em',marginLeft:"1rem"}}/> 
+            </div>
           </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav '/>
